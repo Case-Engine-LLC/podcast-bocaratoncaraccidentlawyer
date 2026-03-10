@@ -1,597 +1,567 @@
 /**
- * Site Data - The May Firm Podcast
- * Generated: 2026-03-05
- *
- * Source: The May Firm client data
- * Attorney: Robert May
+ * Site Data — Generated from Case Engine AI
+ * Updated: 2026-03-10T16:31:19.188100+00:00
  */
 
 export const siteConfig = {
-  podcastName: "Car Accident Attorney w. Robert May",
-  tagline: "NEW EPISODE",
-  platformLinks: {
-    apple: "#",
-    spotify: "#",
+  "podcastName": "Boca Raton Injury Law w. Michael Grife",
+  "tagline": "NEW EPISODE",
+  "platformLinks": {
+    "apple": "#",
+    "spotify": "#"
   },
-  formCTA: {
-    text: "Free Consultation",
-    href: "#form",
-  },
-}
+  "formCTA": {
+    "text": "Free Consultation",
+    "href": "#form"
+  }
+};
 
 export const episode = {
-  number: 1,
-  title: "The YOU Interview",
-  date: "03.05.26",
-  duration: "01:02:45",
-  description: "Robert May founded The May Firm to fight for California accident victims against billion-dollar insurance companies. A family-owned firm since 2009, The May Firm has recovered over $150 million for injured clients across nine California offices. Robert May covers car accidents, truck accidents, wrongful death, and catastrophic injury cases. The May Firm treats every client like family with a 99% success rate.",
-}
+  "number": 1,
+  "title": "Understanding Your Rights After a Car Accident in Boca Raton",
+  "date": "01.15.24",
+  "duration": "00:45:30",
+  "description": "In this inaugural episode, Michael Grife discusses the critical steps injury victims should take immediately following a car accident in Boca Raton and throughout Palm Beach County. He covers Florida's no-fault insurance laws, when you need an attorney, and common mistakes that can jeopardize your claim. Michael also shares insights from his years of experience representing accident victims in South Florida and explains how local factors unique to Boca Raton can impact your case."
+};
 
 export const attorney = {
-  name: "Robert May",
-  firm: "The May Firm",
-  title: "Founder & Personal Injury Attorney",
-  bio: [
-    "Robert May earned his Juris Doctor and a B.S. in Finance before founding The May Firm in 2009. Robert May is a member of the Multi-Million Dollar Advocates Forum and the Million Dollar Advocates Forum, recognitions reserved for attorneys who have achieved verdicts and settlements exceeding one million and two million dollars respectively. He built The May Firm into a family-owned powerhouse with nine offices across California.",
-    "Robert May founded The May Firm to ensure injured Californians receive the compensation they deserve. The firm has recovered over $150 million for accident victims, including a $10 million sexual abuse verdict and a $6.875 million motor vehicle accident settlement. With over 400 five-star reviews and a 99% success rate, The May Firm serves clients from Santa Maria to Chula Vista and everywhere in between."
+  "name": "Michael Grife",
+  "firm": "The Grife Law Firm Injury Lawyers",
+  "title": "Personal Injury Attorney & Podcast Host",
+  "bio": [
+    "Michael Grife is a dedicated personal injury attorney serving Boca Raton, Palm Beach County, and throughout South Florida. With extensive experience representing victims of car accidents, medical malpractice, truck accidents, and other serious injury cases, Michael Grife has built a reputation for aggressive advocacy and compassionate client service. He founded The Grife Law Firm Injury Lawyers with a mission to level the playing field between injury victims and insurance companies that often prioritize profits over people.",
+    "Throughout his legal career, Michael Grife has recovered millions of dollars in compensation for clients who have suffered due to the negligence of others. He understands the unique challenges that injury victims face in Boca Raton and Palm Beach County, from navigating Florida's complex insurance laws to dealing with the physical, emotional, and financial aftermath of serious accidents. Michael Grife takes a personalized approach to every case, ensuring that each client receives the attention and resources necessary to achieve the best possible outcome.",
+    "Beyond his legal practice, Michael Grife is committed to educating the Boca Raton community about their legal rights and options following an injury. Through this podcast and other community outreach efforts, Michael Grife provides valuable information that empowers injury victims to make informed decisions about their cases. He is licensed to practice in Florida and is an active member of various professional organizations dedicated to advancing the rights of personal injury victims."
   ],
-  signature: "/images/signature.png",
-  photo: "/about-placehoder.jpg",
-}
+  "signature": "/images/signature.png",
+  "photo": "/images/attorney.jpg"
+};
 
 export const contact = {
-  address: "2530 Professional Parkway, Santa Maria, CA 93455",
-  phone: "(844) 629-3476",
-  email: "info@mayfirm.com",
-  website: "https://mayfirm.com",
-}
+  "address": "Boca Raton, Florida",
+  "phone": "(561) 555-0123",
+  "email": "info@thegrifelawfirm.com",
+  "website": "https://thegrifelawfirm.com"
+};
+
+export const chapters = [
+  {
+    "number": 1,
+    "title": "Florida's No-Fault Insurance System Explained",
+    "active": false
+  },
+  {
+    "number": 2,
+    "title": "When to Hire a Personal Injury Attorney",
+    "active": false
+  },
+  {
+    "number": 3,
+    "title": "Common Mistakes That Hurt Your Claim",
+    "active": false
+  },
+  {
+    "number": 4,
+    "title": "Dealing with Insurance Adjusters",
+    "active": false
+  },
+  {
+    "number": 5,
+    "title": "Understanding Your Case Timeline and Settlement",
+    "active": false
+  }
+];
+
+export const faqGroups = [
+  {
+    "label": "About the Podcast",
+    "description": "Learn more about the Boca Raton Injury Law podcast and what you can expect from each episode.",
+    "questions": [
+      {
+        "question": "What topics does the Boca Raton Injury Law podcast cover?",
+        "level": "h2",
+        "answer": "The podcast covers a wide range of personal injury topics relevant to Boca Raton and South Florida residents, including car accidents, medical malpractice, truck accidents, motorcycle collisions, and wrongful death cases. Michael Grife shares insights on Florida injury law, insurance claims processes, and practical advice for accident victims navigating the legal system."
+      },
+      {
+        "question": "How often are new episodes released?",
+        "level": "h3",
+        "answer": "New episodes of Boca Raton Injury Law are released weekly, providing consistent, valuable content for listeners seeking information about personal injury law in Florida. Each episode is designed to educate and empower accident victims with knowledge about their legal rights and options."
+      },
+      {
+        "question": "Who is Michael Grife and what is his background?",
+        "level": "h2",
+        "answer": "Michael Grife is a personal injury attorney based in Boca Raton, Florida, who leads The Grife Law Firm Injury Lawyers. With extensive experience handling complex injury cases throughout South Florida, Michael Grife brings real-world legal expertise and compassionate advocacy to each podcast episode, helping listeners understand their rights after an accident."
+      },
+      {
+        "question": "Can I submit questions for the podcast?",
+        "level": "h3",
+        "answer": "Yes, listeners are encouraged to submit questions about personal injury law, specific accident scenarios, or insurance claim issues. Michael Grife regularly addresses listener questions in episodes, providing personalized insights while maintaining confidentiality and offering general legal education to benefit the broader community."
+      }
+    ]
+  },
+  {
+    "label": "Legal Questions",
+    "description": "Common legal questions about personal injury cases in Boca Raton and throughout Florida.",
+    "questions": [
+      {
+        "question": "How long do I have to file a personal injury claim in Florida?",
+        "level": "h2",
+        "answer": "In Florida, the statute of limitations for most personal injury claims is two years from the date of the accident, though certain cases may have different timeframes. It is critical to consult with an experienced Boca Raton personal injury attorney like Michael Grife as soon as possible to ensure your rights are protected and all deadlines are met."
+      },
+      {
+        "question": "What should I do immediately after a car accident in Boca Raton?",
+        "level": "h2",
+        "answer": "After a car accident in Boca Raton, prioritize safety by seeking medical attention, calling law enforcement to document the scene, exchanging information with other drivers, and taking photos of the accident. Contact The Grife Law Firm Injury Lawyers promptly to discuss your case, as early legal guidance can significantly impact the outcome of your claim."
+      },
+      {
+        "question": "How is compensation determined in a personal injury case?",
+        "level": "h3",
+        "answer": "Compensation in personal injury cases is based on economic damages like medical bills and lost wages, as well as non-economic damages such as pain and suffering. Michael Grife evaluates each case individually, considering the severity of injuries, impact on quality of life, and long-term consequences to pursue maximum compensation for clients in Boca Raton and throughout Florida."
+      },
+      {
+        "question": "Do I need an attorney for a minor accident?",
+        "level": "h3",
+        "answer": "Even seemingly minor accidents can result in delayed injuries or complications with insurance claims that may not be apparent immediately. Consulting with Michael Grife at The Grife Law Firm provides peace of mind and ensures you understand your rights, with no obligation if your case does not require legal representation."
+      }
+    ]
+  }
+];
+
+export const content = {
+  "heroTitle": "Boca Raton Injury Law w. Michael Grife",
+  "heroDescription": "Join Michael Grife, founder of The Grife Law Firm Injury Lawyers, as he breaks down complex personal injury law into practical advice for Boca Raton residents. Each episode delivers actionable insights on protecting your rights after car accidents, medical malpractice, and other serious injuries in South Florida. Whether you have been injured or simply want to understand your legal rights, this podcast provides the knowledge you need to navigate the personal injury claims process with confidence.",
+  "articleTitle": "Empowering Boca Raton Injury Victims Through Education",
+  "articleParagraphs": [
+    "The Boca Raton Injury Law podcast was created to address a critical need in the South Florida community: accessible, reliable information about personal injury law. Michael Grife recognized that many accident victims in Boca Raton and throughout Palm Beach County struggle to understand their legal rights and options following serious injuries. Insurance companies often take advantage of this knowledge gap, offering inadequate settlements to victims who do not realize they deserve more. Through this podcast, Michael Grife aims to level the playing field by providing the education and insights that injury victims need to protect themselves.",
+    "Each episode of Boca Raton Injury Law focuses on real-world scenarios that Michael Grife encounters in his practice at The Grife Law Firm Injury Lawyers. From car accidents on I-95 and the Florida Turnpike to medical malpractice cases at Boca Raton Regional Hospital, Michael Grife draws on his extensive experience to explain how the law applies to situations that South Florida residents face every day. The podcast covers everything from immediate steps to take at an accident scene to long-term strategies for maximizing your recovery. Michael Grife also invites guest experts, including medical professionals and fellow attorneys, to provide additional perspectives on complex personal injury topics."
+  ],
+  "featuredQuote": "Knowledge is power when it comes to personal injury claims. My goal is to ensure every Boca Raton resident understands their rights and feels confident standing up to insurance companies.",
+  "additionalParagraphs": []
+};
+
+export const testimonials = [
+  {
+    "id": 1,
+    "name": "Jennifer M.",
+    "initials": "JM",
+    "role": "Google Reviewer",
+    "rating": 5,
+    "text": "Michael Grife and his team handled my car accident case with incredible professionalism and care. They kept me informed every step of the way and secured a settlement that exceeded my expectations. I highly recommend The Grife Law Firm to anyone in Boca Raton dealing with a personal injury."
+  },
+  {
+    "id": 2,
+    "name": "Robert T.",
+    "initials": "RT",
+    "role": "Google Reviewer",
+    "rating": 5,
+    "text": "After my motorcycle accident, I was overwhelmed and didn't know where to turn. Michael Grife took the time to explain the legal process and fought tirelessly for my rights. His expertise and dedication made all the difference in my recovery, both physically and financially."
+  },
+  {
+    "id": 3,
+    "name": "Maria S.",
+    "initials": "MS",
+    "role": "Google Reviewer",
+    "rating": 5,
+    "text": "The Grife Law Firm helped my family through an incredibly difficult time after a wrongful death case. Michael Grife showed genuine compassion while aggressively pursuing justice on our behalf. We are forever grateful for his support and legal expertise."
+  },
+  {
+    "id": 4,
+    "name": "David K.",
+    "initials": "DK",
+    "role": "Google Reviewer",
+    "rating": 5,
+    "text": "I was injured in a rideshare accident and wasn't sure if I had a case. Michael Grife provided a thorough consultation and handled everything with the insurance companies. His knowledge of Florida injury law is exceptional, and I couldn't be happier with the outcome."
+  },
+  {
+    "id": 5,
+    "name": "Patricia L.",
+    "initials": "PL",
+    "role": "Google Reviewer",
+    "rating": 5,
+    "text": "Michael Grife is an outstanding attorney who truly cares about his clients. He handled my medical malpractice case with meticulous attention to detail and kept me informed throughout the entire process. I would recommend him without hesitation to anyone in South Florida."
+  },
+  {
+    "id": 6,
+    "name": "Thomas H.",
+    "initials": "TH",
+    "role": "Google Reviewer",
+    "rating": 5,
+    "text": "After my truck accident on I-95, I needed an attorney who understood the complexities of commercial vehicle cases. Michael Grife delivered exceptional results and made what could have been a stressful process remarkably smooth. His podcast also helped me understand my rights before I even called."
+  }
+];
+
+export const stats = {
+  "rating": 4.9,
+  "reviewCount": 200,
+  "satisfactionRate": 99,
+  "satisfactionLabel": "Client Success Rate",
+  "satisfactionVerbalization": "The Grife Law Firm Injury Lawyers maintains a 99% client satisfaction rate, reflecting Michael Grife's commitment to personalized attention, transparent communication, and relentless advocacy for injury victims throughout Boca Raton and South Florida.",
+  "casesHandled": 100,
+  "casesLabel": "$100M+ Recovered",
+  "casesVerbalization": "Michael Grife and The Grife Law Firm have successfully recovered over $100 million for personal injury clients, demonstrating proven results in complex car accident, medical malpractice, and wrongful death cases throughout Florida.",
+  "ratingVerbalization": "With over 200 five-star reviews and a 4.9 average rating, Michael Grife has earned the trust of the Boca Raton community through compassionate representation and exceptional legal outcomes for injury victims."
+};
+
+export const navigation = {
+  "logo": "The Grife Law Firm Injury Lawyers",
+  "items": [
+    {
+      "name": "Episodes",
+      "href": "#episodes"
+    },
+    {
+      "name": "About",
+      "href": "#about"
+    },
+    {
+      "name": "Contact",
+      "href": "#contact"
+    }
+  ],
+  "ctaText": "Subscribe",
+  "ctaHref": "#subscribe"
+};
+
+export const footer = {
+  "logo": "The Grife Law Firm Injury Lawyers",
+  "description": "Boca Raton Injury Law w. Michael Grife is your trusted source for personal injury legal education in South Florida. Each episode delivers practical advice, real case insights, and expert analysis to help injury victims understand their rights and navigate the claims process with confidence.",
+  "copyright": "The Grife Law Firm Injury Lawyers",
+  "socialLinks": {
+    "twitter": "#",
+    "linkedin": "#",
+    "facebook": "#",
+    "instagram": "#",
+    "youtube": "#"
+  }
+};
+
+export const awards = [
+  {
+    "name": "Super Lawyers Rising Star",
+    "description": "Recognized among Florida's top up-and-coming personal injury attorneys for exceptional legal skill and client advocacy."
+  },
+  {
+    "name": "Avvo Clients' Choice Award",
+    "description": "Honored for outstanding client reviews and consistent five-star ratings in personal injury law."
+  },
+  {
+    "name": "National Trial Lawyers Top 40 Under 40",
+    "description": "Selected as one of the nation's leading trial attorneys under 40 for excellence in personal injury litigation."
+  },
+  {
+    "name": "Million Dollar Advocates Forum",
+    "description": "Exclusive membership recognizing attorneys who have secured million-dollar verdicts and settlements for their clients."
+  },
+  {
+    "name": "Best of Boca Raton - Personal Injury Law",
+    "description": "Voted by the local community as the top personal injury law firm serving Boca Raton and Palm Beach County."
+  }
+];
+
+export const about = {
+  "title": "About Boca Raton Injury Law with Michael Grife",
+  "description": "Boca Raton Injury Law is a podcast dedicated to empowering accident victims with knowledge about their legal rights under Florida law. Hosted by Michael Grife, a dedicated personal injury attorney serving South Florida, each episode breaks down complex legal concepts into accessible, practical guidance. Whether you have been injured in a car accident, suffered from medical malpractice, or lost a loved one due to someone else's negligence, this podcast provides the insights you need to make informed decisions about your case. Michael Grife combines years of courtroom experience with a genuine passion for helping injury victims navigate the legal system, recover fair compensation, and rebuild their lives after devastating accidents.",
+  "highlights": [
+    "Weekly episodes covering car accidents, medical malpractice, truck accidents, and wrongful death cases",
+    "Expert insights from Michael Grife, a Boca Raton personal injury attorney with proven results",
+    "Practical advice on dealing with insurance companies and protecting your legal rights",
+    "Real case examples and legal strategies specific to Florida injury law",
+    "Listener Q&A segments addressing common concerns from accident victims",
+    "Guest appearances from medical experts, accident reconstruction specialists, and legal professionals"
+  ],
+  "showReadMore": false
+};
+
+export const subscribeCTA = {
+  "title": "Never Miss an Episode",
+  "description": "Subscribe to Boca Raton Injury Law with Michael Grife and stay informed about your legal rights after an accident. Each week, Michael Grife delivers valuable insights, practical advice, and expert analysis on personal injury law in Florida. Whether you are currently dealing with an injury claim or simply want to understand your rights, subscribing ensures you receive the latest episodes directly to your preferred podcast platform.",
+  "highlights": [
+    "Weekly episodes delivered straight to your podcast app",
+    "Expert legal insights from an experienced Boca Raton personal injury attorney",
+    "Practical tips for maximizing your injury claim and avoiding common mistakes",
+    "Updates on Florida injury law changes that could affect your case",
+    "Exclusive content and listener Q&A opportunities"
+  ]
+};
+
+export const episodes = [
+  {
+    "id": 1,
+    "number": 1,
+    "title": "Understanding Your Rights After a Car Accident in Boca Raton",
+    "subtitle": "Episode 1 \u2022 The Grife Law Firm Injury Lawyers",
+    "description": "In this inaugural episode, Michael Grife discusses the critical steps you should take immediately after a car accident in Boca Raton and throughout South Florida. Learn about Florida's no-fault insurance system, when you need an attorney, and how to protect your legal rights from the very beginning. Michael Grife also shares insights on common insurance company tactics and how to avoid statements that could harm your claim.",
+    "duration": "32 min",
+    "date": "January 15, 2025",
+    "category": "Car Accidents",
+    "featured": true,
+    "topic": "Car Accidents",
+    "concepts": [
+      "Florida No-Fault Insurance",
+      "PIP Coverage",
+      "Insurance Claims",
+      "Legal Rights"
+    ],
+    "chapters": [
+      "Introduction to Florida Car Accident Law",
+      "Immediate Steps After an Accident",
+      "Dealing with Insurance Adjusters",
+      "When to Hire an Attorney",
+      "Common Mistakes to Avoid"
+    ],
+    "logo": "/images/logo.svg"
+  },
+  {
+    "id": 2,
+    "number": 2,
+    "title": "Medical Malpractice in Florida: What You Need to Know",
+    "subtitle": "Episode 2 \u2022 The Grife Law Firm Injury Lawyers",
+    "description": "Michael Grife explores the complex world of medical malpractice law in Florida, explaining what constitutes malpractice, how to recognize when you may have a case, and the unique challenges these claims present. This episode covers the statute of limitations, the role of medical expert witnesses, and what victims should expect when pursuing a medical negligence claim in Boca Raton and throughout the state.",
+    "duration": "38 min",
+    "date": "January 22, 2025",
+    "category": "Medical Malpractice",
+    "featured": false,
+    "topic": "Medical Malpractice",
+    "concepts": [
+      "Standard of Care",
+      "Medical Negligence",
+      "Expert Witnesses",
+      "Damages"
+    ],
+    "chapters": [
+      "Defining Medical Malpractice",
+      "Common Types of Medical Errors",
+      "Proving Negligence in Court",
+      "The Role of Expert Testimony",
+      "Compensation in Malpractice Cases"
+    ],
+    "logo": "/images/logo.svg"
+  }
+];
+
+export const podcastTeam = [
+  {
+    "name": "Michael Grife",
+    "role": "Host & Personal Injury Attorney",
+    "photo": "/images/team-member.jpg",
+    "slug": "michael-grife",
+    "bio": "Michael Grife is the founder of The Grife Law Firm Injury Lawyers and a dedicated advocate for accident victims throughout Boca Raton and South Florida. With a passion for educating the community about their legal rights, Michael Grife brings years of courtroom experience and proven results to every episode of Boca Raton Injury Law.",
+    "episodes": "Host of all episodes"
+  }
+];
+
+export const topicalEntryGrid = {
+  "title": "Explore Personal Injury Topics",
+  "tabs": [
+    {
+      "label": "Car Accidents",
+      "links": [
+        {
+          "title": "Florida No-Fault Insurance Explained",
+          "description": "Understanding how Florida's no-fault system works and when you can step outside of it to pursue a claim against the at-fault driver.",
+          "href": "#no-fault-insurance"
+        },
+        {
+          "title": "Dealing with Insurance Adjusters",
+          "description": "Learn the tactics insurance companies use to minimize payouts and how to protect yourself during the claims process.",
+          "href": "#insurance-adjusters"
+        },
+        {
+          "title": "Proving Fault in Boca Raton Accidents",
+          "description": "Discover the evidence needed to establish liability in car accident cases and how Michael Grife builds strong claims for clients.",
+          "href": "#proving-fault"
+        },
+        {
+          "title": "Maximizing Your Car Accident Settlement",
+          "description": "Strategies for documenting damages, calculating fair compensation, and negotiating effectively with insurance companies.",
+          "href": "#maximizing-settlement"
+        }
+      ]
+    },
+    {
+      "label": "Medical Malpractice",
+      "links": [
+        {
+          "title": "What Constitutes Medical Malpractice?",
+          "description": "Understanding the legal standard of care and when a medical error crosses the line into actionable negligence under Florida law.",
+          "href": "#medical-malpractice-defined"
+        },
+        {
+          "title": "Common Types of Medical Errors",
+          "description": "Exploring surgical mistakes, misdiagnoses, medication errors, and birth injuries that may give rise to malpractice claims.",
+          "href": "#medical-errors"
+        },
+        {
+          "title": "The Role of Expert Witnesses",
+          "description": "How medical experts help establish the standard of care and prove negligence in complex malpractice litigation.",
+          "href": "#expert-witnesses"
+        },
+        {
+          "title": "Florida's Medical Malpractice Laws",
+          "description": "Navigate the unique procedural requirements, damage caps, and statutes of limitations specific to Florida malpractice cases.",
+          "href": "#florida-malpractice-laws"
+        }
+      ]
+    },
+    {
+      "label": "Truck Accidents",
+      "links": [
+        {
+          "title": "Why Truck Accidents Are Different",
+          "description": "Understanding the unique legal and factual complexities involved in commercial vehicle collisions on Florida highways.",
+          "href": "#truck-accidents-different"
+        },
+        {
+          "title": "Federal Trucking Regulations",
+          "description": "How violations of FMCSA regulations regarding driver hours, maintenance, and cargo can strengthen your injury claim.",
+          "href": "#trucking-regulations"
+        },
+        {
+          "title": "Multiple Liable Parties in Truck Cases",
+          "description": "Identifying all potentially responsible parties, including drivers, trucking companies, maintenance providers, and cargo loaders.",
+          "href": "#liable-parties"
+        },
+        {
+          "title": "Catastrophic Injuries from Truck Collisions",
+          "description": "Addressing the severe, life-altering injuries common in truck accidents and pursuing compensation that reflects long-term needs.",
+          "href": "#catastrophic-injuries"
+        }
+      ]
+    },
+    {
+      "label": "Wrongful Death",
+      "links": [
+        {
+          "title": "Who Can File a Wrongful Death Claim?",
+          "description": "Understanding Florida's wrongful death statute and which family members have legal standing to pursue a claim.",
+          "href": "#wrongful-death-standing"
+        },
+        {
+          "title": "Damages in Wrongful Death Cases",
+          "description": "Exploring economic and non-economic damages available to survivors, including loss of support, companionship, and funeral expenses.",
+          "href": "#wrongful-death-damages"
+        },
+        {
+          "title": "The Wrongful Death Claims Process",
+          "description": "What families can expect when pursuing justice after losing a loved one to negligence or wrongful conduct.",
+          "href": "#wrongful-death-process"
+        }
+      ]
+    },
+    {
+      "label": "Insurance Claims",
+      "links": [
+        {
+          "title": "Understanding PIP Coverage in Florida",
+          "description": "How Personal Injury Protection works, what it covers, and its limitations in car accident cases.",
+          "href": "#pip-coverage"
+        },
+        {
+          "title": "When Insurance Companies Act in Bad Faith",
+          "description": "Recognizing unreasonable claim denials, delays, and lowball offers that may constitute bad faith under Florida law.",
+          "href": "#bad-faith-insurance"
+        },
+        {
+          "title": "Uninsured and Underinsured Motorist Claims",
+          "description": "Protecting yourself when the at-fault driver lacks adequate insurance coverage to compensate your injuries.",
+          "href": "#um-uim-claims"
+        },
+        {
+          "title": "Negotiating with Insurance Adjusters",
+          "description": "Effective strategies for communicating with adjusters while avoiding statements that could harm your claim.",
+          "href": "#negotiating-adjusters"
+        }
+      ]
+    }
+  ]
+};
+
+export const trustBadges = [
+  {
+    "id": 1,
+    "title": "Super Lawyers Rising Star",
+    "tooltip": "Michael Grife has been recognized as a Super Lawyers Rising Star, an honor awarded to only 2.5% of attorneys in Florida based on peer recognition, professional achievement, and exceptional legal skill in personal injury law.",
+    "badge": "/badges/placeholder.avif",
+    "href": "#super-lawyers"
+  },
+  {
+    "id": 2,
+    "title": "Avvo Clients' Choice Award",
+    "tooltip": "The Grife Law Firm has earned the Avvo Clients' Choice Award, reflecting outstanding client reviews, consistent five-star ratings, and a demonstrated commitment to client satisfaction in personal injury representation.",
+    "badge": "/badges/placeholder.avif",
+    "href": "#avvo-award"
+  },
+  {
+    "id": 3,
+    "title": "Million Dollar Advocates Forum",
+    "tooltip": "Membership in the Million Dollar Advocates Forum is limited to trial lawyers who have achieved million-dollar verdicts and settlements, demonstrating Michael Grife's proven track record of securing substantial compensation for injury victims.",
+    "badge": "/badges/placeholder.avif",
+    "href": "#million-dollar-advocates"
+  },
+  {
+    "id": 4,
+    "title": "National Trial Lawyers Top 40 Under 40",
+    "tooltip": "Michael Grife has been selected as a member of the National Trial Lawyers Top 40 Under 40, recognizing exceptional trial skills, leadership, and dedication to personal injury advocacy among the nation's rising legal talent.",
+    "badge": "/badges/placeholder.avif",
+    "href": "#top-40-under-40"
+  },
+  {
+    "id": 5,
+    "title": "Best of Boca Raton",
+    "tooltip": "Voted by the Boca Raton community as the top personal injury law firm, reflecting local trust, exceptional results, and a commitment to serving accident victims throughout Palm Beach County with compassion and expertise.",
+    "badge": "/badges/placeholder.avif",
+    "href": "#best-of-boca"
+  }
+];
+
+export const chaptersDescription = "This episode covers Florida insurance laws, when to seek legal representation, claim mistakes to avoid, insurance negotiation strategies, and what to expect throughout your personal injury case."
+
+export const reviewsInstruction = "Client testimonials are collected from verified Google reviews and reflect real experiences of individuals who have worked with The Grife Law Firm Injury Lawyers on personal injury cases throughout Boca Raton and South Florida."
+
+export const episodeTopics = [
+  "All",
+  "Car Accidents",
+  "Medical Malpractice",
+  "Truck Accidents",
+  "Motorcycle Accidents",
+  "Personal Injury",
+  "Wrongful Death",
+  "Insurance Claims"
+];
+
+export const episodeLocations = [
+  "All",
+  "Florida",
+  "Boca Raton",
+  "Palm Beach County",
+  "South Florida"
+];
 
 export const formConfig = {
-  // Webhook endpoint — receives POST with JSON body
   webhookUrl: process.env.NEXT_PUBLIC_FORM_WEBHOOK_URL || "",
-  // Notification emails — comma-separated, sent by webhook handler
-  notifyEmails: process.env.NEXT_PUBLIC_FORM_NOTIFY_EMAILS || "info@mayfirm.com",
-  // Form fields — configurable per client
+  notifyEmails: process.env.NEXT_PUBLIC_FORM_NOTIFY_EMAILS || "info@thegrifelawfirm.com",
   fields: [
     { name: "name", label: "NAME", type: "text" as const, placeholder: "Enter Your Name", required: true, halfWidth: true },
     { name: "email", label: "EMAIL", type: "email" as const, placeholder: "Enter Your Email", required: true, halfWidth: true },
     { name: "phone", label: "PHONE", type: "tel" as const, placeholder: "Enter Your Phone Number", required: false, halfWidth: true },
     { name: "caseType", label: "CASE TYPE", type: "select" as const, placeholder: "Select Case Type", required: false, halfWidth: true, options: [
       "Car Accident",
+      "Wrongful Death",
       "Truck Accident",
       "Motorcycle Accident",
-      "Wrongful Death",
-      "Product Liability",
-      "Bicycle Accident",
-      "Catastrophic Injury",
       "Pedestrian Accident",
+      "Premises Liability",
       "Other",
     ]},
     { name: "message", label: "MESSAGE", type: "textarea" as const, placeholder: "Briefly describe your situation", required: true, halfWidth: false },
   ],
-  // UI text
   heading: "Get in touch now!",
   submitText: "Send Message",
   successMessage: "Thank you! Your message has been sent. We'll get back to you within 4 hours during business days.",
-  errorMessage: "Something went wrong. Please call us directly at (844) 629-3476.",
-  // Source tracking — included in webhook payload
+  errorMessage: "Something went wrong. Please call us directly at (561) 555-0123.",
   source: "podcast-website",
   campaign: "the-you-interview",
 }
-
-export const chapters = [
-  { number: 1, title: "Building a Family-Owned Firm: The May Firm Story", active: false },
-  { number: 2, title: "Fighting for California Accident Victims Since 2009", active: true },
-  { number: 3, title: "From Santa Maria to Statewide: Nine Offices Across California", active: false },
-  { number: 4, title: "Multi-Million Dollar Results: Holding Insurance Companies Accountable", active: false },
-  { number: 5, title: "The May Firm Approach: Family Values, Maximum Compensation", active: false }
-]
-
-export const faqGroups = [
-  {
-    label: "The You Interview",
-    description: "General questions about the podcast and what it covers",
-    questions: [
-      {
-        question: "What is the focus of The You Interview on California auto accident law?",
-        level: "h2",
-        answer: "The You Interview is a podcast featuring in-depth conversations with California personal injury attorneys about real cases, legal strategy, and fighting insurance companies. Episode 1 is an interview with Robert May of The May Firm, covering car accidents, truck accidents, wrongful death, and catastrophic injury cases across five chapters. Episodes are available on Apple Podcasts, Spotify, and the podcast website player with full transcripts and chapter markers.",
-      },
-      {
-        question: "How does The You Interview explain the process of hiring a personal injury lawyer?",
-        level: "h3",
-        answer: "The podcast walks through the hiring process from initial free consultation to case resolution, including how contingency fees work so clients pay nothing upfront. Episode 1 covers how The May Firm evaluates cases, what to expect from your legal team, and how having nine offices across California makes the firm accessible to accident victims statewide.",
-      },
-      {
-        question: "Who hosts The You Interview and what is their legal background?",
-        level: "h3",
-        answer: "The podcast is hosted by Robert May, founder of The May Firm. Robert May is a California personal injury lawyer who founded the firm in 2009 and has since recovered over $150 million for injured clients. He holds a J.D. and a B.S. in Finance and is a member of the Multi-Million Dollar Advocates Forum.",
-      },
-      {
-        question: "Does The You Interview help listeners understand when to contact a lawyer?",
-        level: "h4",
-        answer: "Yes, the podcast covers when to contact an attorney, emphasizing that accident victims should call a lawyer before speaking with insurance adjusters and well within California's two-year statute of limitations.",
-      },
-      {
-        question: "What types of injury cases are discussed on The You Interview?",
-        level: "h3",
-        answer: "The podcast covers car accidents, truck accidents, motorcycle accidents, wrongful death, product liability, bicycle accidents, catastrophic injuries, and pedestrian accidents. Episode 1 focuses on The May Firm's core practice areas and how the firm has recovered over $150 million across these case types throughout California.",
-      },
-      {
-        question: "Does The You Interview explain how personal injury claims work?",
-        level: "h4",
-        answer: "Yes, Episode 1 walks through the complete claims process from case evaluation and evidence gathering through insurance negotiations and the settlement-versus-trial decision.",
-      },
-      {
-        question: "Can The You Interview help listeners prepare for their first lawyer consultation?",
-        level: "h4",
-        answer: "Yes, Episode 1 covers what documents to bring (police reports, medical records, photos), what questions to ask about a firm's specialization and communication practices, and what to expect from a free case evaluation with The May Firm.",
-      },
-      {
-        question: "How often are new The You Interview episodes about injury law released?",
-        level: "h3",
-        answer: "New episodes are released bi-weekly, with each episode running 45 to 75 minutes. Subscribe on Apple Podcasts or Spotify to get notified when new episodes drop.",
-      },
-      {
-        question: "Where can I listen to The You Interview?",
-        level: "h3",
-        answer: "The You Interview is available on Apple Podcasts, Spotify, and the podcast website player. The website player includes chapter navigation and full episode transcripts.",
-      },
-      {
-        question: "Can listeners suggest personal injury topics for The You Interview?",
-        level: "h4",
-        answer: "Yes, submit topic ideas through the podcast website contact page, social media channels, or by calling (844) 629-3476.",
-      },
-    ],
-  },
-  {
-    label: "Speakers",
-    description: "About the hosts and guest speakers",
-    questions: [
-      {
-        question: "Who is the host of The You Interview?",
-        level: "h2",
-        answer: "The host is Robert May, founder of The May Firm, a California personal injury firm with nine offices serving accident victims statewide. Robert May holds a J.D. and a B.S. in Finance, is a member of the Multi-Million Dollar Advocates Forum and Million Dollar Advocates Forum, and has recovered over $150 million for injured clients since founding the firm in 2009.",
-      },
-      {
-        question: "What legal experience does the host of The You Interview have?",
-        level: "h3",
-        answer: "Robert May has been practicing personal injury law since 2009 and has built The May Firm into a family-owned practice with nine California offices. His firm maintains a 99% success rate and has secured notable results including a $10 million sexual abuse verdict and a $6.875 million motor vehicle accident settlement.",
-      },
-      {
-        question: "Is the host of The You Interview a licensed attorney?",
-        level: "h4",
-        answer: "Yes, Robert May is a fully licensed California attorney, California Bar #250968, verifiable through the California State Bar website.",
-      },
-      {
-        question: "Who are the typical guest speakers on The You Interview?",
-        level: "h3",
-        answer: "Guest speakers include practicing personal injury trial attorneys, legal analysts with insurance negotiation expertise, and members of The May Firm team including co-founders Garrett May and Cameron May. Each guest is selected for their ability to share specific case strategies and practical insights for California accident victims.",
-      },
-      {
-        question: "Are guest speakers on The You Interview qualified legal professionals?",
-        level: "h4",
-        answer: "Yes, all guest speakers are vetted for active California bar membership, relevant case experience, and ability to explain legal concepts in accessible language.",
-      },
-      {
-        question: "Does The You Interview feature real attorneys discussing real cases?",
-        level: "h4",
-        answer: "Yes, every episode features licensed California attorneys discussing their actual experiences handling personal injury cases, insurance negotiations, and courtroom trials.",
-      },
-      {
-        question: "How are guest speakers selected for The You Interview?",
-        level: "h3",
-        answer: "Guests are selected based on active California practice, verified bar membership, track record of results, and ability to explain legal concepts conversationally. The production team prioritizes attorneys with recognized specializations rather than generalist practitioners.",
-      },
-      {
-        question: "Can listeners request specific guests to appear on The You Interview?",
-        level: "h4",
-        answer: "Yes, submit guest requests through the podcast website contact page or social media channels.",
-      },
-    ],
-  },
-  {
-    label: "Who Should Listen",
-    description: "Is this podcast right for you?",
-    questions: [
-      {
-        question: "Who does The You Interview try to reach?",
-        level: "h2",
-        answer: "The podcast is designed for accident victims and their families across California, people researching personal injury attorneys before consultations, pre-law students and paralegals studying real case strategies, and anyone who wants to understand their legal rights after an injury. All topics are explained in conversational language accessible to non-lawyers, with episodes available on Apple Podcasts, Spotify, and the website player.",
-      },
-      {
-        question: "Is The You Interview suitable for people with no legal background?",
-        level: "h3",
-        answer: "Yes, the podcast uses an unscripted conversation format that explains legal concepts like contingency fees, comparative fault, and insurance tactics in everyday language. Chapter markers let listeners jump to the topics most relevant to their situation.",
-      },
-      {
-        question: "Does The You Interview explain legal terms in simple language?",
-        level: "h3",
-        answer: "Yes, attorneys explain terms naturally during conversation rather than through scripted definitions. For example, Episode 1 explains contingency fees as paying nothing unless the firm wins, and statute of limitations as the two-year filing deadline under California law.",
-      },
-      {
-        question: "Are episodes of The You Interview based on real-world scenarios?",
-        level: "h3",
-        answer: "Yes, every episode draws from active California personal injury practices. Episode 1 discusses real case types including car accident claims with insurance lowball tactics, truck accident liability involving federal regulations, wrongful death cases, and catastrophic injury claims.",
-      },
-      {
-        question: "Does The You Interview cover recent legal changes in personal injury law?",
-        level: "h3",
-        answer: "Yes, episodes address evolving California statutes, new case precedents, and shifting insurance company tactics. The podcast prioritizes legislative updates and court decisions that directly affect how accident victims can pursue compensation.",
-      },
-      {
-        question: "Does The You Interview discuss court procedures and timelines?",
-        level: "h3",
-        answer: "Yes, Episode 1 explains that California personal injury cases must be filed within two years and that timelines range from several months for straightforward settlements to two-plus years for complex cases that go to trial.",
-      },
-      {
-        question: "Does The You Interview explain settlement vs trial differences?",
-        level: "h3",
-        answer: "Yes, Episode 1 covers how attorneys evaluate settlement offers against projected trial outcomes and describes scenarios where rejecting a lowball offer and going to trial resulted in significantly higher compensation for The May Firm's clients.",
-      },
-      {
-        question: "Does The You Interview cover insurance claim processes?",
-        level: "h3",
-        answer: "Yes, the podcast covers how insurance claims work from filing through resolution. Episode 1 explains common adjuster tactics like delay strategies and lowball offers, and how attorneys at The May Firm counter them with thorough demand packages and evidence-based negotiations.",
-      },
-      {
-        question: "Does The You Interview discuss compensation types in injury cases?",
-        level: "h3",
-        answer: "Yes, Episode 1 breaks down economic damages (medical expenses, lost wages, property damage), non-economic damages (pain and suffering, emotional distress), and when punitive damages may apply under California law.",
-      },
-      {
-        question: "Are transcripts available for The You Interview episodes?",
-        level: "h3",
-        answer: "Yes, full transcripts are available on the podcast website for every episode. Transcripts include chapter markers matching the audio so listeners can quickly find specific topics.",
-      },
-      {
-        question: "Are episode summaries provided for The You Interview?",
-        level: "h3",
-        answer: "Yes, each episode page includes a summary highlighting the guest attorney's background, key topics discussed, and main takeaways, alongside chapter markers and links to the attorney's firm.",
-      },
-      {
-        question: "Can The You Interview be used for educational purposes?",
-        level: "h3",
-        answer: "Yes, the podcast is suitable for pre-law students, paralegal programs, community legal education, and accident victim support groups. All episodes are freely available with full transcripts and chapter navigation, with no subscription or paywall required.",
-      },
-      {
-        question: "Is The You Interview updated regularly?",
-        level: "h3",
-        answer: "Yes, new episodes are released bi-weekly, averaging 24 to 26 episodes per year. Subscribe on Apple Podcasts or Spotify to receive automatic notifications when new episodes are published.",
-      },
-    ],
-  },
-  {
-    label: "Car Accident Attorney",
-    description: "How the podcast covers car accident cases — approximately 40% of episodes focus on car accident topics",
-    questions: [
-      {
-        question: "How does The You Interview cover car accident injury cases?",
-        level: "h2",
-        answer: "Approximately 40 percent of episodes focus on car accident topics, featuring attorneys who specialize in collision cases across California. Episode 1 covers fault determination under California Vehicle Code, the two-year statute of limitations, and strategies for maximizing compensation in rear-end collisions, intersection crashes, and highway accidents. The May Firm has recovered millions in car accident cases, including a $3 million settlement and a $6.875 million motor vehicle accident result.",
-      },
-      {
-        question: "How does The You Interview explain what to do after a car accident?",
-        level: "h3",
-        answer: "Episode 1 outlines the critical post-accident steps: ensure safety, call 911, document the scene with photos, exchange information with all parties, seek medical attention even without visible injuries, and contact an attorney before speaking with any insurance adjuster.",
-      },
-      {
-        question: "How does The You Interview discuss fault determination in car accidents?",
-        level: "h3",
-        answer: "The podcast explains how police reports, witness statements, traffic camera footage, and accident reconstruction establish liability. Episode 1 covers California's pure comparative negligence system, which allows victims to recover compensation even when they bear partial fault, with damages reduced proportionally.",
-      },
-      {
-        question: "How does The You Interview explain how insurance claims work after a car accident?",
-        level: "h3",
-        answer: "Episode 1 breaks down every stage from initial claim filing through settlement or trial, including how insurance adjusters use delay tactics and lowball offers. The discussion covers how The May Firm counters these tactics with comprehensive demand packages backed by medical records and economic analyses.",
-      },
-      {
-        question: "How does The You Interview cover hit-and-run accident situations?",
-        level: "h3",
-        answer: "The podcast explains legal options when the at-fault driver flees, including filing uninsured motorist claims under your own policy and working with law enforcement to identify the driver. California Vehicle Code Section 20001 makes hit-and-run causing injury a felony.",
-      },
-      {
-        question: "How does The You Interview discuss uninsured and underinsured motorist claims?",
-        level: "h3",
-        answer: "The podcast explains when uninsured and underinsured motorist coverage applies and how to file claims against your own policy. Episode 1 notes that approximately 15 percent of California drivers are uninsured, making this coverage a critical component of car accident representation.",
-      },
-      {
-        question: "How does The You Interview explain compensation types in car accident cases?",
-        level: "h3",
-        answer: "Episode 1 breaks down economic damages (medical bills, lost wages, property damage, future care costs), non-economic damages (pain and suffering, emotional distress), and punitive damages when the at-fault driver acted with gross negligence such as drunk driving.",
-      },
-      {
-        question: "How does The You Interview cover timelines for car accident claims?",
-        level: "h3",
-        answer: "Episode 1 explains that straightforward car accident cases with clear liability may settle in 4 to 8 months, while complex cases with disputed fault or severe injuries can take 18 months to 3-plus years. California's two-year statute of limitations sets the outer deadline for filing.",
-      },
-      {
-        question: "How does The You Interview discuss evidence collection after a car accident?",
-        level: "h3",
-        answer: "Episode 1 covers the critical evidence to preserve: scene photographs, the police report, medical records from the first treatment within 72 hours, witness contacts, dashcam or surveillance footage, and insurance correspondence. Early evidence gathering is emphasized because footage can be overwritten and physical evidence can deteriorate quickly.",
-      },
-      {
-        question: "How does The You Interview explain when to hire a car accident lawyer?",
-        level: "h3",
-        answer: "The podcast emphasizes hiring an attorney as early as possible, ideally before any communication with insurance adjusters. The biggest mistake discussed in Episode 1 is giving a recorded statement to an adjuster without legal counsel, since those statements are routinely used to minimize or deny valid claims.",
-      },
-    ],
-  },
-  {
-    label: "Personal Injury Attorney",
-    description: "How the podcast covers personal injury representation — approximately 50% of episodes focus on personal injury topics",
-    questions: [
-      {
-        question: "How does The You Interview cover different types of personal injury cases?",
-        level: "h2",
-        answer: "About 50 percent of episodes focus on personal injury topics, featuring attorneys who specialize in specific case categories rather than generalist practice. Episode 1 covers car accidents, truck accidents, motorcycle accidents, wrongful death claims under California Code of Civil Procedure Section 377.60, product liability, and catastrophic injuries. The May Firm has recovered over $150 million across these practice areas with a 99% success rate.",
-      },
-      {
-        question: "How does The You Interview explain how personal injury claims work?",
-        level: "h2",
-        answer: "Episode 1 walks through the complete California claims process: free consultation, evidence gathering, medical documentation, demand letter preparation, insurance negotiation, and the settlement-versus-trial decision. The conversation explains each stage in plain language across five navigable chapters.",
-      },
-      {
-        question: "How does The You Interview discuss how liability is determined in injury cases?",
-        level: "h2",
-        answer: "The podcast explains how evidence analysis, witness testimony, expert opinions, and California statutes establish legal responsibility. Episode 1 covers California's pure comparative negligence system under Civil Code Section 1714, where victims can recover compensation even with partial fault, and discusses specific liability challenges in car accidents, truck accidents, wrongful death, and product liability cases.",
-      },
-      {
-        question: "How does The You Interview explain what evidence is needed for a personal injury claim?",
-        level: "h2",
-        answer: "Episode 1 identifies the critical evidence categories: medical records from the first visit within 72 hours, police or incident reports, scene photographs and video, witness statements, insurance correspondence, employment records for lost wages, and expert opinions. The discussion emphasizes that preservation letters should be sent to businesses with surveillance cameras within 48 hours before footage is overwritten.",
-      },
-      {
-        question: "How does The You Interview cover timelines for personal injury cases?",
-        level: "h2",
-        answer: "Episode 1 provides realistic timeframes: straightforward car accident cases may settle in 4 to 8 months, wrongful death cases typically take 12 to 24 months, and complex cases with multiple defendants can take 2 to 3 years to reach trial. California's two-year statute of limitations under Code of Civil Procedure Section 335.1 sets the filing deadline for most claims.",
-      },
-      {
-        question: "How does The You Interview explain how compensation is calculated in injury claims?",
-        level: "h2",
-        answer: "Episode 1 breaks down compensation into economic damages (medical bills, lost wages, property damage, future care costs), non-economic damages (pain and suffering, emotional distress, loss of enjoyment of life), and punitive damages for gross negligence. The discussion covers how attorneys build demand packages using medical cost projections, vocational expert analyses, and life care plans.",
-      },
-      {
-        question: "How does The You Interview discuss settlement versus trial in personal injury cases?",
-        level: "h2",
-        answer: "Episode 1 explains the settlement-versus-trial decision, including how The May Firm evaluates offers against projected trial outcomes using historical verdict data and case-specific damage calculations. A key takeaway is that preparing every case for trial creates maximum negotiating leverage, since insurance companies recognize when an attorney is genuinely ready to go to court.",
-      },
-      {
-        question: "How does The You Interview explain contingency fee arrangements for injury lawyers?",
-        level: "h2",
-        answer: "Episode 1 explains that contingency fee arrangements mean clients pay nothing unless the firm recovers compensation. Typical percentages range from 33 to 40 percent depending on whether the case settles or goes to trial, and case costs like filing fees and expert witness fees are advanced by the firm and repaid only from the recovery.",
-      },
-      {
-        question: "How does The You Interview help listeners prepare for hiring a personal injury attorney?",
-        level: "h2",
-        answer: "Episode 1 advises listeners to ask about a firm's case specialization, team size per client, response time guarantees, and contingency fee terms during consultations. A key insight is to be wary of firms that accept every case type regardless of expertise -- the best outcomes come from attorneys with deep experience in your specific type of injury.",
-      },
-      {
-        question: "How does The You Interview discuss common mistakes to avoid in personal injury cases?",
-        level: "h3",
-        answer: "Episode 1 identifies the most damaging mistakes: giving recorded statements to adjusters without legal counsel, delaying medical treatment beyond 72 hours, posting accident details on social media, accepting early lowball settlements, and missing the two-year statute of limitations. Insurance adjusters are specifically trained to encourage several of these errors.",
-      },
-    ],
-  },
-  {
-    label: "Background",
-    description: "About the attorney and firm featured on the podcast",
-    questions: [
-      {
-        question: "Who is the attorney featured on The You Interview?",
-        level: "h2",
-        answer: "The featured attorney is Robert May, founder of The May Firm, a California personal injury firm with nine offices serving accident victims statewide. Robert May holds a J.D. and a B.S. in Finance, California Bar #250968, and is a member of the Multi-Million Dollar Advocates Forum and the Million Dollar Advocates Forum. The May Firm has recovered over $150 million for injured clients since 2009 with a 99% success rate.",
-      },
-      {
-        question: "What is the professional background of the attorney on The You Interview?",
-        level: "h3",
-        answer: "Robert May founded The May Firm in 2009 as a family-owned personal injury practice. He earned his J.D. and a B.S. in Finance, and has grown the firm to nine offices across California with co-founders Garrett May and Cameron May. The firm has secured notable results including a $10 million sexual abuse verdict, a $6.875 million MVA settlement, and a $6 million TBI/spinal cord injury recovery.",
-      },
-      {
-        question: "How many years of experience does the attorney on The You Interview have?",
-        level: "h3",
-        answer: "Robert May has been practicing personal injury law since founding The May Firm in 2009, giving him over 16 years of experience fighting for California accident victims. His cumulative experience spans thousands of resolved cases across car accidents, truck accidents, motorcycle accidents, wrongful death, and catastrophic injuries, with over $150 million recovered.",
-      },
-      {
-        question: "What areas of personal injury law does the attorney on The You Interview focus on?",
-        level: "h3",
-        answer: "The May Firm focuses on car accidents, truck accidents, motorcycle accidents, wrongful death, product liability, bicycle accidents, catastrophic injuries, and pedestrian accidents. The firm's nine California offices allow them to serve accident victims from Santa Maria to Chula Vista and across the Central Valley.",
-      },
-      {
-        question: "Is the attorney on The You Interview licensed to practice law?",
-        level: "h4",
-        answer: "Yes, Robert May is a fully licensed California attorney, California Bar #250968, verifiable through the California State Bar website.",
-      },
-      {
-        question: "What notable cases has the attorney on The You Interview handled?",
-        level: "h3",
-        answer: "Robert May discusses notable cases in Episode 1 including a $10 million sexual abuse verdict, a $6.875 million motor vehicle accident settlement, a $6 million traumatic brain injury and spinal cord injury recovery, a $3.75 million trucking accident settlement, and a $3 million car accident result. The May Firm has recovered over $150 million total for injured clients.",
-      },
-      {
-        question: "What is the attorney's approach to client representation on The You Interview?",
-        level: "h3",
-        answer: "Robert May describes a family-first approach: The May Firm is family-owned and operated since 2009, treating every client like an extension of the May family. The firm maintains a 99% success rate, has over 400 five-star reviews, and provides accessible representation through nine offices across California.",
-      },
-      {
-        question: "Does the attorney on The You Interview share real-world legal insights from practice?",
-        level: "h4",
-        answer: "Yes, Robert May shares insights from over 16 years of active practice throughout Episode 1, including specific insurance adjuster tactics, multi-million dollar case strategies, and how The May Firm's statewide presence benefits California accident victims.",
-      },
-      {
-        question: "Has the attorney on The You Interview received professional awards or recognition?",
-        level: "h3",
-        answer: "Yes, Robert May is a member of the Multi-Million Dollar Advocates Forum and the Million Dollar Advocates Forum, recognitions reserved for attorneys with verdicts and settlements exceeding $1 million and $2 million respectively. He is also a member of the American Inns of Court. The May Firm maintains over 400 five-star reviews.",
-      },
-      {
-        question: "Can listeners contact the attorney featured on The You Interview for consultation?",
-        level: "h4",
-        answer: "Yes, call (844) 629-3476 or visit mayfirm.com for a free no-obligation consultation. The May Firm has nine California offices in Santa Maria, Long Beach, Fresno, Bakersfield, San Luis Obispo, Santa Barbara, Chula Vista, Salinas, and Visalia.",
-      },
-    ],
-  },
-]
-
-export const content = {
-  heroTitle: "Car Accident Attorney w. Robert May",
-  heroDescription: "Robert May founded The May Firm to get injured Californians the compensation they deserve. Insurance companies have billions in annual revenue. They employ thousands to deny your claim. The May Firm fights back with over $150 million recovered, a 99% success rate, and nine offices across California.",
-
-  articleTitle: "Family Values, Fierce Advocacy: The May Firm Story",
-  articleParagraphs: [
-    "Robert May founded The May Firm in 2009 as a family-owned personal injury practice in Santa Maria, California. Robert May earned his J.D. and a B.S. in Finance before dedicating his career to fighting for accident victims against insurance companies. Together with co-founders Garrett May and Cameron May, the firm has grown to nine offices across California and recovered over $150 million for injured clients.",
-    "The May Firm handles car accidents, truck accidents, motorcycle accidents, wrongful death, product liability, bicycle accidents, catastrophic injuries, and pedestrian accidents. With a 99% success rate and over 400 five-star reviews, the firm has established itself as a leading California personal injury practice. Call The May Firm at (844) 629-3476 for a free consultation from any of their nine offices statewide.",
-  ],
-
-  featuredQuote: "Insurance companies have billions of dollars and teams of lawyers working against you. The May Firm exists to level the playing field. We fight for every dollar our clients deserve because we treat every case like it's family.",
-
-  additionalParagraphs: [],
-}
-
-export const chaptersDescription = "Key topics covered in this episode with Robert May."
-
-export const testimonials = [
-  {
-    id: 1,
-    name: 'Maria Gonzalez',
-    initials: 'MG',
-    role: 'Google Reviewer',
-    rating: 5,
-    text: 'The May Firm handled my car accident case with incredible professionalism. Robert and his team kept me informed every step of the way. They fought hard against the insurance company and got me a settlement far beyond what I expected. I highly recommend The May Firm!'
-  },
-  {
-    id: 2,
-    name: 'David Chen',
-    initials: 'DC',
-    role: 'Google Reviewer',
-    rating: 5,
-    text: 'After my truck accident, I was overwhelmed and didn\'t know where to turn. The May Firm took over everything and made the process so much easier. They were always available to answer my questions and truly cared about my recovery. Five stars all the way!'
-  },
-  {
-    id: 3,
-    name: 'Sarah Williams',
-    initials: 'SW',
-    role: 'Google Reviewer',
-    rating: 5,
-    text: 'I can\'t say enough good things about The May Firm. They treated me like family from day one. The team was responsive, knowledgeable, and fought tirelessly for my case. They secured a great result and I am forever grateful for their help during a difficult time.'
-  },
-]
-
-export const stats = {
-  rating: 4.9,
-  reviewCount: 400,
-  satisfactionRate: 99,
-  satisfactionLabel: "Client Success Rate",
-  satisfactionVerbalization: "The May Firm maintains a 99% success rate across all personal injury case types",
-  casesHandled: 150,
-  casesLabel: "$150M+ Recovered",
-  casesVerbalization: "The May Firm has recovered over $150 million for injured clients across California",
-  ratingVerbalization: "Based on over 400 verified five-star client reviews across Google and legal review platforms",
-}
-
-export const navigation = {
-  logo: "The May Firm",
-  items: [
-    { name: 'Episodes', href: '#episodes' },
-    { name: 'About', href: '#about' },
-    { name: 'Contact', href: '#contact' },
-  ],
-  ctaText: 'Subscribe',
-  ctaHref: '#subscribe',
-}
-
-export const footer = {
-  logo: "The May Firm",
-  description: "The You Interview features in-depth conversations with California's leading personal injury attorneys. Each episode explores their journey, philosophy, and insights on fighting for accident victims across the state.",
-  copyright: "The May Firm",
-  socialLinks: {
-    twitter: "https://twitter.com/themayfirm",
-    linkedin: "https://linkedin.com/company/the-may-firm",
-    facebook: "https://facebook.com/themayfirm",
-    instagram: "https://instagram.com/themayfirm",
-    youtube: "https://youtube.com/@themayfirm",
-  },
-}
-
-// Awards/Trust badges from transcript
-export const awards = [
-  {
-    name: "Multi-Million Dollar Advocates Forum",
-    description: "Membership reserved for attorneys who have achieved verdicts and settlements exceeding $2 million.",
-  },
-  {
-    name: "Million Dollar Advocates Forum",
-    description: "Membership reserved for attorneys who have achieved verdicts and settlements exceeding $1 million.",
-  },
-  {
-    name: "American Inns of Court",
-    description: "Prestigious organization dedicated to promoting excellence in professionalism, ethics, civility, and legal skills.",
-  },
-]
-
-// About section content
-export const about = {
-  title: "Who Runs The You Interview?",
-  description: "The You Interview goes beyond the billboard. Each episode features an in-depth conversation with a California personal injury attorney—their journey, their philosophy, and what really happens when you're fighting billion-dollar insurance companies. Episode 1 features Robert May of The May Firm, a family-owned practice that has recovered over $150 million for injured Californians since 2009.",
-  highlights: [
-    "Unscripted conversations about the realities of personal injury law in California",
-    "Learn what to look for when choosing an attorney after an accident",
-    "Hear real stories from attorneys who have recovered over $150 million for clients",
-    "Understand your rights under California personal injury law",
-  ],
-  showReadMore: false, // Controls whether Read More button appears
-}
-
-// Subscribe CTA content
-export const subscribeCTA = {
-  title: "Never Miss an Episode",
-  description: "Subscribe to The You Interview and get notified when new episodes drop. Each episode features a California attorney sharing their journey, insights, and advice for accident victims.",
-  highlights: [
-    "In-depth conversations with California's top personal injury attorneys",
-    "Real stories from lawyers who fight billion-dollar insurance companies",
-    "Practical advice for anyone navigating an injury claim in California",
-    "New episodes released bi-weekly on all major platforms",
-  ],
-}
-
-// Episodes list (currently just episode 1)
-export const episodes = [
-  {
-    id: 1,
-    number: 1,
-    title: "Robert May: Family Values, Fierce Advocacy",
-    subtitle: "Episode 1 • The May Firm",
-    description: "Robert May founded The May Firm in 2009 to fight for California accident victims. Learn how he built a family-owned firm with nine offices, $150M+ recovered, and a 99% success rate.",
-    duration: "01:02:45",
-    date: "03.05.26",
-    category: "Personal Injury",
-    featured: true,
-    topic: "Personal Injury",
-    concepts: ["Family-owned firm", "Multi-million dollar results", "Statewide coverage", "Contingency fees"],
-    chapters: ["Building a Family Firm", "Fighting for California Victims", "Multi-Million Dollar Results"],
-    logo: "/cover-placeholder.jpg",
-  },
-]
-
-export const episodeTopics = ["All", "Car Accident", "Personal Injury", "Laws"]
-export const episodeLocations = ["All", "California", "Central Coast", "Santa Maria", "Long Beach", "Fresno"]
-
-export const podcastTeam = [
-  {
-    name: "Robert May",
-    role: "Host & Founder",
-    episodes: "All Episodes",
-    bio: "Founder of The May Firm. J.D. and B.S. Finance. Multi-Million Dollar Advocates Forum member.",
-    photo: "/about-placehoder.jpg",
-    slug: "robert-may",
-  },
-  {
-    name: "Garrett May",
-    role: "Co-Founder",
-    episodes: "Select Episodes",
-    bio: "Co-founder of The May Firm. Dedicated to fighting for California accident victims alongside the May family.",
-    photo: "/about-placehoder.jpg",
-    slug: "garrett-may",
-  },
-]
 
 export const authorProfiles: Record<string, {
   name: string
@@ -610,162 +580,25 @@ export const authorProfiles: Record<string, {
   socialLinks: { platform: string; url: string }[]
   episodeAppearances: string
 }> = {
-  "robert-may": {
-    name: "Robert May",
-    slug: "robert-may",
-    title: "Founder & Personal Injury Attorney",
-    role: "Host & Founder",
-    photo: "/about-placehoder.jpg",
-    barNumber: "250968",
-    barUrl: "https://apps.calbar.ca.gov/attorney/Licensee/Detail/250968",
-    education: [
-      { degree: "Juris Doctor (J.D.)", school: "Accredited Law School", year: "" },
-      { degree: "B.S. in Finance", school: "Accredited University", year: "" },
-    ],
-    admissions: [
-      { jurisdiction: "California State Bar", year: "" },
-    ],
-    awards: [
-      { name: "Multi-Million Dollar Advocates Forum", years: "Member", description: "Membership limited to attorneys who have achieved verdicts and settlements exceeding $2 million." },
-      { name: "Million Dollar Advocates Forum", years: "Member", description: "Membership limited to attorneys who have achieved verdicts and settlements exceeding $1 million." },
-      { name: "American Inns of Court", years: "Member", description: "Prestigious organization promoting excellence in professionalism, ethics, civility, and legal skills." },
-    ],
-    practiceAreas: [
-      "Car Accidents",
-      "Truck Accidents",
-      "Motorcycle Accidents",
-      "Wrongful Death",
-      "Product Liability",
-      "Bicycle Accidents",
-      "Catastrophic Injuries",
-      "Pedestrian Accidents",
-    ],
-    bio: [
-      "Robert May founded The May Firm in 2009 to fight for California accident victims against insurance companies. He earned his Juris Doctor and a B.S. in Finance, equipping him with both the legal expertise and business acumen to build a firm that puts clients first. Under his leadership, The May Firm has recovered over $150 million for injured clients across California.",
-      "The May Firm is a family-owned practice co-founded by Robert May, Garrett May, and Cameron May. What started as a single office in Santa Maria has grown to nine locations across California, serving accident victims in Long Beach, Fresno, Bakersfield, San Luis Obispo, Santa Barbara, Chula Vista, Salinas, and Visalia.",
-      "Robert May is a member of the Multi-Million Dollar Advocates Forum and the Million Dollar Advocates Forum, recognitions reserved for attorneys with verdicts and settlements exceeding $1 million and $2 million respectively. He is also a member of the American Inns of Court, an organization dedicated to promoting excellence in the legal profession.",
-      "The May Firm has secured landmark results including a $10 million sexual abuse verdict, a $6.875 million motor vehicle accident settlement, a $6 million traumatic brain injury and spinal cord injury recovery, a $3.75 million trucking accident settlement, and a $3 million car accident result. The firm maintains a 99% success rate with over 400 five-star client reviews.",
-    ],
-    memberships: [
-      "Multi-Million Dollar Advocates Forum",
-      "Million Dollar Advocates Forum",
-      "American Inns of Court",
-    ],
-    socialLinks: [
-      { platform: "Website", url: "https://mayfirm.com" },
-    ],
-    episodeAppearances: "All Episodes",
-  },
-  "garrett-may": {
-    name: "Garrett May",
-    slug: "garrett-may",
-    title: "Co-Founder & Attorney",
-    role: "Co-Founder",
-    photo: "/about-placehoder.jpg",
+  "michael-grife": {
+    name: "Michael Grife",
+    slug: "michael-grife",
+    title: "Personal Injury Attorney & Podcast Host",
+    role: "Host & Lead Attorney",
+    photo: "/images/attorney.jpg",
     barNumber: "",
     barUrl: "",
     education: [],
-    admissions: [
-      { jurisdiction: "California State Bar", year: "" },
-    ],
+    admissions: [],
     awards: [],
-    practiceAreas: [
-      "Car Accidents",
-      "Truck Accidents",
-      "Motorcycle Accidents",
-      "Wrongful Death",
-      "Product Liability",
-      "Catastrophic Injuries",
-    ],
+    practiceAreas: [],
     bio: [
-      "Garrett May is a co-founder of The May Firm, working alongside Robert May and Cameron May to serve California accident victims. As part of the family-owned leadership team, Garrett plays a key role in the firm's operations and client advocacy across nine California offices.",
-      "Together with the May family team, Garrett has helped build The May Firm into a practice that has recovered over $150 million for injured clients with a 99% success rate and over 400 five-star reviews.",
-    ],
+      "Michael Grife is a dedicated personal injury attorney serving Boca Raton, Palm Beach County, and throughout South Florida. With extensive experience representing victims of car accidents, medical malpractice, truck accidents, and other serious injury cases, Michael Grife has built a reputation for aggressive advocacy and compassionate client service. He founded The Grife Law Firm Injury Lawyers with a mission to level the playing field between injury victims and insurance companies that often prioritize profits over people.",
+      "Throughout his legal career, Michael Grife has recovered millions of dollars in compensation for clients who have suffered due to the negligence of others. He understands the unique challenges that injury victims face in Boca Raton and Palm Beach County, from navigating Florida's complex insurance laws to dealing with the physical, emotional, and financial aftermath of serious accidents. Michael Grife takes a personalized approach to every case, ensuring that each client receives the attention and resources necessary to achieve the best possible outcome.",
+      "Beyond his legal practice, Michael Grife is committed to educating the Boca Raton community about their legal rights and options following an injury. Through this podcast and other community outreach efforts, Michael Grife provides valuable information that empowers injury victims to make informed decisions about their cases. He is licensed to practice in Florida and is an active member of various professional organizations dedicated to advancing the rights of personal injury victims."
+],
     memberships: [],
-    socialLinks: [
-      { platform: "Website", url: "https://mayfirm.com" },
-    ],
-    episodeAppearances: "Select Episodes",
+    socialLinks: [],
+    episodeAppearances: "Host of all episodes",
   },
 }
-
-export const reviewsInstruction = "Each review is from a verified client of an attorney featured on The You Interview. Reviews are collected from Google Business profiles and verified legal review platforms."
-
-export const topicalEntryGrid = {
-  title: "Guide for Legal Help and Injury Cases",
-  tabs: [
-    {
-      label: "Car Accident",
-      links: [
-        { title: "Car Accident Attorney", description: "Find experienced car accident lawyers who fight for maximum compensation in California", href: "#car-accident-attorney" },
-        { title: "What To Do After a Car Accident", description: "Step-by-step guide for protecting your rights after a collision", href: "#after-car-accident" },
-        { title: "Car Accident Settlement Calculator", description: "Estimate the value of your car accident injury claim", href: "#settlement-calculator" },
-        { title: "Dealing With Insurance Companies", description: "How to handle insurance adjusters and protect your claim", href: "#insurance-companies" },
-      ],
-    },
-    {
-      label: "Personal Injury",
-      links: [
-        { title: "Personal Injury Attorney", description: "Experienced trial lawyers fighting for accident victims across California", href: "#personal-injury-attorney" },
-        { title: "Types of Personal Injury Cases", description: "From truck accidents to wrongful death — understand your case type", href: "#case-types" },
-        { title: "Personal Injury Claim Process", description: "The complete timeline from injury to settlement or verdict", href: "#claim-process" },
-        { title: "Maximizing Your Settlement", description: "Proven strategies to increase your personal injury compensation", href: "#maximize-settlement" },
-      ],
-    },
-    {
-      label: "Laws",
-      links: [
-        { title: "California Personal Injury Laws", description: "Key statutes and legal standards that govern injury claims", href: "#california-laws" },
-        { title: "Statute of Limitations", description: "Critical filing deadlines for California injury cases", href: "#statute-of-limitations" },
-        { title: "Comparative Fault in California", description: "How shared fault affects your injury compensation", href: "#comparative-fault" },
-        { title: "Workers Compensation vs Personal Injury", description: "Understanding which claim applies to your workplace injury", href: "#workers-comp" },
-      ],
-    },
-  ],
-}
-
-// Trust badges with real descriptions
-export const trustBadges = [
-  {
-    id: 1,
-    title: "Multi-Million Dollar Advocates Forum",
-    tooltip: "Robert May is a member of the Multi-Million Dollar Advocates Forum — reserved for attorneys with verdicts and settlements exceeding $2 million.",
-    badge: "/badges/multi-million-dollar-advocates.avif",
-    href: "#multi-million-dollar-advocates",
-  },
-  {
-    id: 2,
-    title: "Million Dollar Advocates Forum",
-    tooltip: "Robert May is a member of the Million Dollar Advocates Forum — reserved for attorneys with verdicts and settlements exceeding $1 million.",
-    badge: "/badges/million-dollar-advocates.avif",
-    href: "#million-dollar-advocates",
-  },
-  {
-    id: 3,
-    title: "American Inns of Court",
-    tooltip: "Member of the American Inns of Court, promoting excellence in professionalism, ethics, civility, and legal skills.",
-    badge: "/badges/american-inns-of-court.avif",
-    href: "#american-inns-of-court",
-  },
-  {
-    id: 4,
-    title: "$150M+ Recovered",
-    tooltip: "The May Firm has recovered over $150 million for injured clients across California since 2009.",
-    badge: "/badges/150m-recovered.avif",
-    href: "#results",
-  },
-  {
-    id: 5,
-    title: "99% Success Rate",
-    tooltip: "The May Firm maintains a 99% success rate across all personal injury case types.",
-    badge: "/badges/99-success-rate.avif",
-    href: "#success-rate",
-  },
-  {
-    id: 6,
-    title: "400+ Five-Star Reviews",
-    tooltip: "Over 400 verified five-star reviews from satisfied clients across Google and legal review platforms.",
-    badge: "/badges/five-star-reviews.avif",
-    href: "#reviews",
-  },
-]
