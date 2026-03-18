@@ -38,9 +38,9 @@ export const attorney = {
 };
 
 export const contact = {
-  "address": "Boca Raton, Florida",
-  "phone": "(561) 555-0100",
-  "email": "contact@thegrifelawfirm.com",
+  "address": "6111 Broken Sound Pkwy NW, Suite 300, Boca Raton, FL 33487",
+  "phone": "(561) 998-0770",
+  "email": "mike@thegrifelawfirm.com",
   "website": "https://thegrifelawfirm.com"
 };
 
@@ -557,7 +557,7 @@ export const formConfig = {
   heading: "Get in touch now!",
   submitText: "Send Message",
   successMessage: "Thank you! Your message has been sent. We'll get back to you within 4 hours during business days.",
-  errorMessage: "Something went wrong. Please call us directly at (561) 555-0100.",
+  errorMessage: "Something went wrong. Please call us directly at (561) 998-0770.",
   source: "podcast-website",
   campaign: "the-you-interview",
 }
@@ -587,16 +587,49 @@ export const authorProfiles: Record<string, {
     photo: "/images/attorney.jpg",
     barNumber: "",
     barUrl: "",
-    education: [],
-    admissions: [],
-    awards: [],
-    practiceAreas: [],
+    education: [
+      { degree: "J.D.", school: "Nova Southeastern University", year: "2005" },
+      { degree: "B.A.", school: "Hofstra University", year: "2002" }
+    ],
+    admissions: [
+      { jurisdiction: "Florida Bar", year: "2005" },
+      { jurisdiction: "U.S. District Court, Southern District of Florida", year: "" }
+    ],
+    awards: [
+      { name: "Super Lawyers", years: "", description: "Selected to the Super Lawyers list for excellence in personal injury law." },
+      { name: "Best Lawyers 2024", years: "2024", description: "Recognized by Best Lawyers for outstanding legal practice." },
+      { name: "AVVO 10/10 Superb Rating", years: "", description: "Highest possible rating on AVVO for experience, industry recognition, and professional conduct." },
+      { name: "National Trial Lawyers Top 100", years: "", description: "Selected as one of the Top 100 trial lawyers in the nation." },
+      { name: "Multi-Million Dollar Advocates Forum", years: "", description: "Membership limited to attorneys who have won multi-million dollar verdicts and settlements." },
+      { name: "AV-Preeminent Martindale-Hubbell", years: "", description: "Highest peer-review rating for legal ability and ethical standards." },
+      { name: "Palm Beach Illustrated Top Lawyers", years: "", description: "Named among top lawyers in the Palm Beach area." },
+      { name: "AVVO Clients' Choice Award", years: "", description: "Honored for consistently excellent client reviews and satisfaction." },
+      { name: "Florida Justice Association EAGLE Member", years: "", description: "Active member supporting the rights of injured Floridians." }
+    ],
+    practiceAreas: [
+      "Personal Injury",
+      "Car Accidents",
+      "Truck Accidents",
+      "Motorcycle Accidents",
+      "Bicycle Accidents",
+      "Pedestrian Accidents",
+      "Medical Malpractice",
+      "Wrongful Death",
+      "Premises Liability",
+      "Slip and Fall",
+      "Cruise Ship Accidents",
+      "Product Liability"
+    ],
     bio: [
       "Michael Grife is the founder and lead attorney at The Grife Law Firm Injury Lawyers, a premier personal injury practice serving Boca Raton, Palm Beach County, and communities throughout South Florida. With extensive experience handling complex car accident cases, medical malpractice claims, and catastrophic injury matters, Michael Grife has built a reputation for aggressive advocacy and compassionate client service. His deep understanding of Florida's personal injury laws and insurance practices allows him to secure maximum compensation for clients who have been injured due to the negligence of others.",
       "Throughout his legal career, Michael Grife has successfully represented clients in a wide range of personal injury cases, from motorcycle and truck accidents to rideshare collisions and wrongful death claims. He understands the physical, emotional, and financial toll that serious injuries can take on victims and their families. Michael Grife approaches each case with meticulous attention to detail, thorough investigation, and a commitment to holding negligent parties accountable. His client-centered approach ensures that every individual receives personalized legal guidance tailored to their unique circumstances.",
       "Beyond his legal practice, Michael Grife is dedicated to educating the Boca Raton community about personal injury rights and safety issues through his podcast, Boca Raton Injury Law. He believes that informed clients make better decisions and that transparency in the legal process builds trust. Michael Grife is admitted to practice in Florida and maintains active involvement in professional legal organizations focused on personal injury advocacy and trial practice."
-],
-    memberships: [],
+    ],
+    memberships: [
+      "Florida Justice Association (EAGLE Member)",
+      "Palm Beach County Justice Association",
+      "Multi-Million Dollar Advocates Forum"
+    ],
     socialLinks: [],
     episodeAppearances: "Host of all episodes",
   },
