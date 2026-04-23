@@ -1,0 +1,622 @@
+{
+  "about": {
+    "title": "About Michael Grife and the Boca Raton Injury Law Podcast",
+    "description": "Michael Grife created Boca Raton Injury Law to help Florida accident victims understand their rights before, during, and after a personal injury or medical malpractice case. As the founder of The Grife Law Firm, Michael has spent his career representing people injured in car crashes, truck crashes, motorcycle crashes, medical negligence, nursing home neglect, and dangerous property fall cases. The firm has recovered over $100 million for clients across the state of Florida. Through the podcast, Michael breaks down how Florida law actually works — from the contingency fee structure and why it matters, to how cases are investigated, litigated, and taken to trial — so listeners can make informed decisions at the most vulnerable moments of their lives.",
+    "highlights": [
+      "Unfiltered conversations on Florida personal injury and medical malpractice law from a founding attorney",
+      "Learn how Florida's contingency fee arrangement, discovery, mediation, and trial process actually work",
+      "Hear the strategy Michael Grife uses in catastrophic injury, wrongful death, and medical malpractice cases",
+      "Understand why Michael sees Florida's lack of mandatory bodily injury insurance as the biggest change the state needs",
+      "Practical guidance on preserving evidence, dealing with insurance companies, and choosing the right attorney",
+      "Florida Bar Rule 4-7 attorney advertising — this podcast is educational, not legal advice"
+    ],
+    "showReadMore": false
+  },
+  "attorney": {
+    "name": "Michael K. Grife",
+    "firm": "The Grife Law Firm",
+    "title": "Founder & Personal Injury Attorney",
+    "bio": [
+      "Michael K. Grife is the founder of The Grife Law Firm, a Boca Raton personal injury and medical malpractice practice serving clients throughout Florida. Michael Grife established the firm in 2014 after building his career at personal injury firms in Delray Beach and Fort Lauderdale, and has since recovered over $100 million for injured clients across the state. He is admitted to the Florida Bar (#16583) and the U.S. District Court for the Southern District of Florida, and is recognized by Super Lawyers, Best Lawyers in America for personal injury and medical malpractice, AV-Preeminent by Martindale-Hubbell, and the Multi-Million Dollar Advocates Forum.",
+      "Michael Grife grew up in Brooklyn and attended Hofstra University on Long Island, majoring in print journalism, before following a friend's invitation to visit Fort Lauderdale and deciding to stay. He earned his J.D. from Nova Southeastern University School of Law and has practiced personal injury and medical malpractice in South Florida ever since. Michael Grife credits his New York upbringing — and his stepfather's practical career advice — with shaping an approach that prizes relating to every client as a person rather than a file number, and with giving him the storytelling instincts he now uses to present cases to juries across Florida.",
+      "Today Michael Grife focuses on catastrophic injury, wrongful death, and medical malpractice cases — traumatic brain injuries, anoxic brain injuries, paralysis, stroke misdiagnosis, surgical error, and nursing home neglect — alongside car, truck, motorcycle, and dangerous property fall matters. He serves on the Palm Beach County Bar Association Civil Practice Committee and the personal injury and wrongful death CLE committee, and The Grife Law Firm is frequently recognized on peer-review honor rolls. Past results do not guarantee a similar outcome."
+    ],
+    "signature": "/images/signature.png",
+    "photo": "/attorney-1.avif"
+  },
+  "authorProfiles": {
+    "michael-grife": {
+      "name": "Michael K. Grife",
+      "slug": "michael-grife",
+      "title": "Founder & Personal Injury Attorney",
+      "role": "Host & Founding Attorney",
+      "photo": "/attorney-1.avif",
+      "barNumber": "16583",
+      "barUrl": "https://www.floridabar.org/directories/find-mbr/?barNum=16583",
+      "education": [
+        {
+          "degree": "J.D.",
+          "school": "Nova Southeastern University Shepard Broad College of Law",
+          "year": "2005"
+        },
+        {
+          "degree": "B.A., Print Journalism",
+          "school": "Hofstra University",
+          "year": "2002"
+        }
+      ],
+      "admissions": [
+        {
+          "jurisdiction": "Florida Bar",
+          "year": "2005"
+        },
+        {
+          "jurisdiction": "U.S. District Court, Southern District of Florida",
+          "year": ""
+        }
+      ],
+      "awards": [],
+      "practiceAreas": [
+        "Car Accidents",
+        "Truck Accidents",
+        "Motorcycle Accidents",
+        "Medical Malpractice",
+        "Nursing Home Neglect",
+        "Wrongful Death",
+        "Premises Liability",
+        "Catastrophic Injury"
+      ],
+      "bio": [
+        "Michael K. Grife is the founder of The Grife Law Firm, a Boca Raton personal injury and medical malpractice practice serving clients throughout Florida. Michael Grife established the firm in 2014 after building his career at personal injury firms in Delray Beach and Fort Lauderdale, and has since recovered over $100 million for injured clients across the state.",
+        "Michael Grife grew up in Brooklyn and attended Hofstra University on Long Island before earning his J.D. from Nova Southeastern University School of Law in Fort Lauderdale. He has practiced personal injury and medical malpractice in South Florida ever since and credits his New York upbringing with the ability to relate to every client as a person rather than a file number.",
+        "Today Michael Grife focuses on catastrophic injury, wrongful death, and medical malpractice — traumatic brain injuries, stroke misdiagnosis, surgical error, and nursing home neglect — alongside car, truck, motorcycle, and dangerous property fall cases. He serves on the Palm Beach County Bar Association Civil Practice Committee and the personal injury and wrongful death CLE committee."
+      ],
+      "memberships": [
+        "Florida Bar (#16583)",
+        "Florida Justice Association (EAGLE Member)",
+        "Palm Beach County Justice Association",
+        "Palm Beach County Bar Association Civil Practice Committee",
+        "Multi-Million Dollar Advocates Forum"
+      ],
+      "socialLinks": [],
+      "episodeAppearances": "Host of all episodes"
+    },
+    "patrick-knight": {
+      "name": "Patrick W. Knight",
+      "slug": "patrick-knight",
+      "title": "Shareholder, Board-Certified Civil Trial Attorney",
+      "role": "Guest Attorney",
+      "photo": "/attorney-2.avif",
+      "barNumber": "116289",
+      "barUrl": "https://www.floridabar.org/directories/find-mbr/?barNum=116289",
+      "education": [
+        {
+          "degree": "J.D.",
+          "school": "University of Miami School of Law",
+          "year": "1997"
+        },
+        {
+          "degree": "B.S.",
+          "school": "University of Illinois",
+          "year": "1994"
+        }
+      ],
+      "admissions": [
+        {
+          "jurisdiction": "Florida Bar",
+          "year": "1997"
+        }
+      ],
+      "awards": [],
+      "practiceAreas": [
+        "Personal Injury Trial Law",
+        "Medical Malpractice",
+        "Car Accidents",
+        "Premises Liability",
+        "Wrongful Death"
+      ],
+      "bio": [
+        "Patrick W. Knight is a shareholder and board-certified civil trial attorney at The Grife Law Firm. He is Board Certified in Civil Trial Law by The Florida Bar — a credential held by fewer than one percent of Florida attorneys — and has taken over 170 cases to jury trial.",
+        "Earlier in his career, Patrick Knight represented defendants in personal injury matters before transitioning to plaintiff-side work. That courtroom experience on both sides of the aisle informs how he develops cases for The Grife Law Firm's injured clients, from medical malpractice to catastrophic car and truck crashes.",
+        "Patrick Knight has been recognized as one of the Ten Outstanding Young Americans by the Junior Chamber of Commerce and selected for the 40 Under 40 Outstanding Lawyers of Miami-Dade County."
+      ],
+      "memberships": [
+        "Florida Bar (#116289)",
+        "Board Certified in Civil Trial Law (since 2005)"
+      ],
+      "socialLinks": [],
+      "episodeAppearances": "Guest attorney on select episodes"
+    }
+  },
+  "awards": [],
+  "chapters": [
+    {
+      "number": 1,
+      "title": "From Brooklyn to Boca Raton: Michael Grife's Origin Story",
+      "active": true
+    },
+    {
+      "number": 2,
+      "title": "Why Personal Injury and Medical Malpractice",
+      "active": false
+    },
+    {
+      "number": 3,
+      "title": "How The Grife Law Firm's Contingency Fee Works",
+      "active": false
+    },
+    {
+      "number": 4,
+      "title": "Case Strategy: Evidence Preservation from Day One",
+      "active": false
+    },
+    {
+      "number": 5,
+      "title": "Negotiation vs. Litigation vs. Jury Trial",
+      "active": false
+    },
+    {
+      "number": 6,
+      "title": "Florida Needs Mandatory Bodily Injury Insurance",
+      "active": false
+    },
+    {
+      "number": 7,
+      "title": "How AI Fits Into a Modern Law Practice",
+      "active": false
+    }
+  ],
+  "chaptersDescription": "In Episode 1 of Boca Raton Injury Law, Michael Grife walks through his origin story, why The Grife Law Firm focuses on catastrophic injury and medical malpractice, how the contingency fee structure actually works, how cases are investigated and litigated in Florida, and why the state needs mandatory bodily injury insurance.",
+  "compliance": {
+    "jurisdiction": "Florida",
+    "firm": "The Grife Law Firm",
+    "responsibleAttorneys": [
+      { "name": "Michael K. Grife", "barNumber": "16583" },
+      { "name": "Patrick W. Knight", "barNumber": "116289" }
+    ],
+    "disclaimers": [
+      {
+        "kind": "attorney_advertising",
+        "text": "This podcast and website constitute attorney advertising under the Florida Rules of Professional Conduct, including Chapter 4-7 governing lawyer advertising."
+      },
+      {
+        "kind": "no_ac_relationship",
+        "text": "Viewing this site, listening to the Boca Raton Injury Law podcast, or contacting The Grife Law Firm does not create an attorney-client relationship. An attorney-client relationship with The Grife Law Firm is formed only through a signed written fee agreement."
+      },
+      {
+        "kind": "prior_results",
+        "text": "Prior results do not guarantee a similar outcome. Every case is different and must be evaluated on its own facts. Discussion of past verdicts or settlements on this site or podcast does not guarantee a prospective client will obtain the same or similar result."
+      },
+      {
+        "kind": "testimonial",
+        "text": "Any testimonial or endorsement shown on this site reflects the experience of that individual client or peer, is shared with consent, and does not guarantee a similar outcome. Clients are not compensated for providing testimonials."
+      },
+      {
+        "kind": "jurisdictional",
+        "text": "Michael K. Grife and Patrick W. Knight are licensed to practice law in the State of Florida. Information on this site and podcast addresses Florida law and is not legal advice in any other jurisdiction."
+      },
+      {
+        "kind": "fee_structure",
+        "text": "The Grife Law Firm represents personal injury and medical malpractice clients on a contingency-fee basis. No attorney's fees are charged unless a recovery is obtained. Clients may be responsible for case-related costs as set out in a written fee agreement, consistent with Florida Rule of Professional Conduct 4-1.5."
+      },
+      {
+        "kind": "podcast_content",
+        "text": "The Boca Raton Injury Law podcast is for general informational and educational purposes only. Nothing discussed on the show is legal advice. Listeners with specific legal questions should consult a qualified attorney about their individual situation."
+      }
+    ]
+  },
+  "contact": {
+    "address": "6111 Broken Sound Pkwy NW, Suite 300, Boca Raton, FL 33487",
+    "phone": "(561) 998-0770",
+    "tollFree": "(855) 998-0770",
+    "email": "mike@thegrifelawfirm.com",
+    "website": "https://thegrifelawfirm.com"
+  },
+  "content": {
+    "heroTitle": "Boca Raton Injury Law with Mike Grife",
+    "heroDescription": "Join Michael Grife, founder of The Grife Law Firm, for candid conversations about personal injury and medical malpractice law in Florida. From contingency fees and insurance tactics to catastrophic injury strategy and Florida-specific procedure, each episode gives accident victims and their families the knowledge they need to protect themselves and pursue full compensation.",
+    "articleTitle": "Real Answers for Florida Accident Victims",
+    "articleParagraphs": [
+      "Boca Raton Injury Law with Mike Grife is the podcast Michael Grife created to close the gap between how personal injury and medical malpractice cases actually work and what most injured people are told about them. Drawing on more than $100 million recovered for clients since founding The Grife Law Firm in 2014, Michael tackles the questions accident victims and their families actually ask — what the contingency fee really covers, how Florida's mediation and trial process plays out, and what to do in the first hours after a car crash, a fall, or a suspected medical error.",
+      "Each conversation goes beyond surface-level legal talking points. Michael walks through the strategy The Grife Law Firm uses in catastrophic injury and wrongful death matters — from preserving black box data and 911 recordings to lining up life care planners and medical experts — and explains when a case settles in pre-suit, when it settles at mediation, and when it belongs in front of a Florida jury. The podcast also looks at how technology and AI are changing legal practice, and why Michael believes Florida still needs mandatory bodily injury insurance to protect its drivers."
+    ],
+    "featuredQuote": "When you hire The Grife Law Firm on a contingency fee, we're partners in your case. We don't get paid a dollar unless we win, and that aligns our interests with yours completely.",
+    "additionalParagraphs": []
+  },
+  "episode": {
+    "number": 1,
+    "title": "The YOU Interview with Michael Grife",
+    "date": "04.23.26",
+    "duration": "01:21:00",
+    "description": "In this debut episode of Boca Raton Injury Law, founding attorney Michael Grife sits down with co-host Abby for an unfiltered conversation about his life, his law practice, and the values that drive The Grife Law Firm. Michael shares his Brooklyn origin story, how a friend's Fort Lauderdale invite led him to Nova Southeastern University School of Law, why he built a practice around catastrophic injury and medical malpractice, how the firm's contingency fee structure actually works, and why Florida needs mandatory bodily injury insurance."
+  },
+  "episodeLocations": [
+    "All",
+    "Florida",
+    "Boca Raton",
+    "Palm Beach County",
+    "Fort Lauderdale",
+    "Delray Beach",
+    "South Florida"
+  ],
+  "episodeTopics": [
+    "All",
+    "Car Accidents",
+    "Truck Accidents",
+    "Motorcycle Accidents",
+    "Medical Malpractice",
+    "Nursing Home Neglect",
+    "Wrongful Death",
+    "Premises Liability",
+    "Florida Law"
+  ],
+  "episodes": [
+    {
+      "id": 1,
+      "number": 1,
+      "title": "The YOU Interview with Michael Grife",
+      "subtitle": "Episode 1 • The Grife Law Firm",
+      "description": "Michael Grife opens The Grife Law Firm's first podcast with an in-depth conversation about his Brooklyn upbringing, his path from Hofstra to Nova Southeastern University School of Law, and how he built a Boca Raton firm focused on catastrophic injury, medical malpractice, and wrongful death. Michael explains how the contingency fee really works, why evidence preservation in the first 48 hours often decides a case, how negotiation stacks up against litigation and jury trial in Florida, and why the state needs mandatory bodily injury insurance.",
+      "duration": "81 min",
+      "date": "April 23, 2026",
+      "category": "Personal Injury Law",
+      "featured": true,
+      "topic": "Meet the Host",
+      "concepts": [
+        "Firm Origin Story",
+        "Contingency Fee",
+        "Catastrophic Injury Strategy",
+        "Medical Malpractice in Florida",
+        "Mandatory Bodily Injury Insurance",
+        "AI in Legal Practice"
+      ],
+      "chapters": [
+        "From Brooklyn to Boca Raton: Michael Grife's Origin Story",
+        "Why Personal Injury and Medical Malpractice",
+        "How The Grife Law Firm's Contingency Fee Works",
+        "Case Strategy: Evidence Preservation from Day One",
+        "Negotiation vs. Litigation vs. Jury Trial",
+        "Florida Needs Mandatory Bodily Injury Insurance",
+        "How AI Fits Into a Modern Law Practice"
+      ],
+      "audioUrl": "",
+      "guid": "",
+      "logo": "/images/logo.svg"
+    }
+  ],
+  "faqGroups": [
+    {
+      "label": "About the Podcast",
+      "description": "Learn more about Boca Raton Injury Law with Michael Grife and what to expect from each episode.",
+      "questions": [
+        {
+          "question": "What topics does Michael Grife cover on Boca Raton Injury Law?",
+          "level": "h2",
+          "answer": "Michael Grife covers Florida personal injury and medical malpractice law, including car, truck, and motorcycle crashes, dangerous property fall cases, nursing home neglect, wrongful death, and catastrophic injury matters. Each episode explains how Florida procedure and insurance rules shape real cases and how accident victims can protect themselves from the moment an injury happens."
+        },
+        {
+          "question": "How often are new episodes released?",
+          "level": "h3",
+          "answer": "The Grife Law Firm releases new episodes on a rolling basis as Michael Grife and guest attorneys record new conversations. Subscribe on your preferred podcast platform to be notified when a new Boca Raton Injury Law episode goes live."
+        },
+        {
+          "question": "Is this podcast only for people who have been in an accident?",
+          "level": "h3",
+          "answer": "No. Boca Raton Injury Law is designed for Florida drivers, families, patients, and residents who want to understand how personal injury and medical malpractice cases actually work before they need a lawyer. The podcast is educational — not legal advice — and is useful for anyone who wants to be informed about Florida law."
+        },
+        {
+          "question": "Can I submit questions for the podcast?",
+          "level": "h3",
+          "answer": "Yes. Listeners can reach The Grife Law Firm through thegrifelawfirm.com or on Instagram, Facebook, and LinkedIn at @thegrifelawfirm to submit questions or topic suggestions. Michael Grife regularly addresses listener questions on upcoming episodes."
+        }
+      ]
+    },
+    {
+      "label": "Florida Legal Questions",
+      "description": "Common questions about personal injury and medical malpractice cases in Boca Raton and across Florida.",
+      "questions": [
+        {
+          "question": "What should I do immediately after a car accident in Florida?",
+          "level": "h2",
+          "answer": "After ensuring everyone's safety and calling 911, document the scene with photos, exchange information with other drivers, and seek medical attention. Florida's no-fault insurance system requires you to seek treatment within 14 days of a crash to preserve your PIP benefits. Avoid giving a recorded statement to an insurance adjuster before speaking with an attorney. Michael Grife emphasizes calling The Grife Law Firm quickly so evidence — including black box data and surveillance footage — can be preserved before it is altered or destroyed."
+        },
+        {
+          "question": "How long do I have to file a personal injury claim in Florida?",
+          "level": "h2",
+          "answer": "Florida generally imposes a two-year statute of limitations on personal injury claims arising from negligence, including most car accident cases, under Florida Statutes Section 95.11. Medical malpractice, wrongful death, and claims against government entities have their own deadlines and pre-suit requirements. Michael Grife advises contacting an attorney as soon as possible so deadlines and evidence are protected."
+        },
+        {
+          "question": "How does The Grife Law Firm's contingency fee work?",
+          "level": "h3",
+          "answer": "The Grife Law Firm takes personal injury and medical malpractice cases on a contingency fee basis consistent with Florida Rule of Professional Conduct 4-1.5. Clients pay no attorney's fees up front and no fees at all unless the firm recovers compensation. The firm advances case costs — filing fees, depositions, expert witnesses — and is reimbursed from any recovery. The written fee agreement spells out exact percentages and cost handling."
+        },
+        {
+          "question": "What if the at-fault driver in Florida doesn't have insurance?",
+          "level": "h3",
+          "answer": "Florida is one of only two states without mandatory bodily injury insurance, which means many at-fault drivers carry only PIP and property damage. Uninsured motorist (UM) and underinsured motorist (UIM) coverage on your own auto policy is often the most reliable path to compensation. Michael Grife urges every Florida driver to carry UM/UIM coverage and discusses this issue in detail on the podcast."
+        }
+      ]
+    }
+  ],
+  "footer": {
+    "logo": "The Grife Law Firm",
+    "description": "Boca Raton Injury Law with Mike Grife is a podcast dedicated to helping Florida accident victims understand their legal rights and navigate the personal injury and medical malpractice claims process. Hosted by Michael K. Grife of The Grife Law Firm, each episode delivers practical guidance drawn from more than $100 million recovered for injured clients across Florida.",
+    "copyright": "The Grife Law Firm",
+    "socialLinks": {
+      "twitter": "#",
+      "linkedin": "https://www.linkedin.com/company/the-grife-law-firm",
+      "facebook": "https://www.facebook.com/thegrifelawfirm",
+      "instagram": "https://www.instagram.com/thegrifelawfirm",
+      "youtube": "#"
+    }
+  },
+  "formConfig": {
+    "webhookUrl": "",
+    "notifyEmails": "mike@thegrifelawfirm.com",
+    "fields": [
+      {
+        "name": "name",
+        "label": "NAME",
+        "type": "text",
+        "placeholder": "Enter Your Name",
+        "required": true,
+        "halfWidth": true
+      },
+      {
+        "name": "email",
+        "label": "EMAIL",
+        "type": "email",
+        "placeholder": "Enter Your Email",
+        "required": true,
+        "halfWidth": true
+      },
+      {
+        "name": "phone",
+        "label": "PHONE",
+        "type": "tel",
+        "placeholder": "Enter Your Phone Number",
+        "required": false,
+        "halfWidth": true
+      },
+      {
+        "name": "caseType",
+        "label": "CASE TYPE",
+        "type": "select",
+        "placeholder": "Select Case Type",
+        "required": false,
+        "halfWidth": true,
+        "options": [
+          "Car Accident",
+          "Truck Accident",
+          "Motorcycle Accident",
+          "Medical Malpractice",
+          "Nursing Home Neglect",
+          "Wrongful Death",
+          "Premises Liability",
+          "Other"
+        ]
+      },
+      {
+        "name": "message",
+        "label": "MESSAGE",
+        "type": "textarea",
+        "placeholder": "Briefly describe your situation",
+        "required": true,
+        "halfWidth": false
+      }
+    ],
+    "heading": "Get in touch now!",
+    "submitText": "Send Message",
+    "successMessage": "Thank you! Your message has been sent. The Grife Law Firm will get back to you shortly — for urgent matters call (561) 998-0770 or toll-free (855) 998-0770.",
+    "errorMessage": "Something went wrong. Please call us directly at (561) 998-0770.",
+    "source": "podcast-website",
+    "campaign": "the-you-interview"
+  },
+  "navigation": {
+    "logo": "The Grife Law Firm",
+    "items": [
+      {
+        "name": "Episodes",
+        "href": "#episodes"
+      },
+      {
+        "name": "About",
+        "href": "#about"
+      },
+      {
+        "name": "Contact",
+        "href": "#contact"
+      }
+    ],
+    "ctaText": "Subscribe",
+    "ctaHref": "#subscribe"
+  },
+  "podcastTeam": [
+    {
+      "name": "Michael K. Grife",
+      "role": "Host & Founding Attorney",
+      "photo": "/attorney-1.avif",
+      "slug": "michael-grife",
+      "bio": "Michael K. Grife is the founder of The Grife Law Firm and the host of Boca Raton Injury Law. He built the Boca Raton firm in 2014 to represent injured clients across Florida in catastrophic injury, medical malpractice, and wrongful death cases, and has recovered over $100 million for clients. Florida Bar #16583; admitted 2005.",
+      "episodes": "Host of all episodes"
+    },
+    {
+      "name": "Patrick W. Knight",
+      "role": "Shareholder & Guest Attorney",
+      "photo": "/attorney-2.avif",
+      "slug": "patrick-knight",
+      "bio": "Patrick W. Knight is a shareholder at The Grife Law Firm and one of the few Florida attorneys who is Board Certified in Civil Trial Law. He has taken more than 170 cases to jury trial and joins Boca Raton Injury Law as a guest expert on trial strategy, medical malpractice, and catastrophic injury cases. Florida Bar #116289; admitted 1997.",
+      "episodes": "Guest attorney on select episodes"
+    }
+  ],
+  "reviewsInstruction": "Any testimonials displayed reflect the individual experiences of real clients of The Grife Law Firm and are shared with consent. Past results do not guarantee a similar outcome in any future case. Testimonials are not paid endorsements.",
+  "siteConfig": {
+    "podcastName": "Boca Raton Injury Law w. Mike Grife",
+    "tagline": "NEW EPISODE",
+    "podcastUrl": "https://podcast-bocaratoncaraccidentlawyer.vercel.app",
+    "rssFeedUrl": "https://rss2.flightcast.com/h484arcmcz73w42ytuahrggr.xml",
+    "platformLinks": {
+      "apple": "#",
+      "spotify": "#"
+    },
+    "formCTA": {
+      "text": "Free Consultation",
+      "href": "#form"
+    }
+  },
+  "stats": {
+    "rating": 4.9,
+    "reviewCount": 200,
+    "satisfactionRate": 99,
+    "satisfactionLabel": "Client Satisfaction",
+    "satisfactionVerbalization": "Clients of The Grife Law Firm consistently report high satisfaction with Michael Grife's hands-on approach, including 24-hour response times and direct attorney access. Satisfaction figures reflect firm records; past client experiences do not guarantee the same experience for every future client.",
+    "casesHandled": 100,
+    "casesLabel": "$100M+ Recovered",
+    "casesVerbalization": "Michael Grife and The Grife Law Firm have recovered over $100 million in verdicts and settlements for injured clients across Florida, including multiple eight-figure medical malpractice and catastrophic injury results. Past case results do not guarantee a similar outcome in any future case.",
+    "ratingVerbalization": "The Grife Law Firm has earned consistent recognition from peer-review organizations including Super Lawyers, Best Lawyers in America, AV-Preeminent by Martindale-Hubbell, and the Multi-Million Dollar Advocates Forum. Client ratings reflect reviews collected on third-party platforms."
+  },
+  "subscribeCTA": {
+    "title": "Never Miss an Episode",
+    "description": "Subscribe to Boca Raton Injury Law with Mike Grife for candid, Florida-specific guidance on personal injury and medical malpractice cases. Each episode delivers the legal judgment Michael uses in real cases — from catastrophic injury and wrongful death to car crashes and dangerous property falls — so you can make informed decisions if you or a loved one is ever hurt.",
+    "highlights": [
+      "Florida-specific insights on personal injury, medical malpractice, and wrongful death cases",
+      "How the contingency fee really works and what to expect in a free consultation",
+      "Evidence preservation, mediation, and jury trial strategy from a founding attorney",
+      "Why Florida needs mandatory bodily injury insurance — and how to protect yourself today",
+      "Answers to listener questions about Florida accident and injury law"
+    ]
+  },
+  "testimonials": [],
+  "topicalEntryGrid": {
+    "title": "Explore The Grife Law Firm's Practice Areas",
+    "description": "Browse the Florida injury topics Michael Grife covers on the podcast. Each card links to a deeper resource from The Grife Law Firm on that situation.",
+    "tabs": [
+      {
+        "label": "Motor Vehicle",
+        "links": [
+          {
+            "title": "Car Accident Lawyers",
+            "description": "The Grife Law Firm represents Florida drivers and passengers injured in car crashes, from I-95 collisions to intersection impacts across Palm Beach County.",
+            "href": "https://thegrifelawfirm.com/"
+          },
+          {
+            "title": "Truck Accident Lawyers",
+            "description": "Commercial truck crashes involve federal trucking regulations, multiple liable parties, and catastrophic injuries — Michael Grife has handled Florida tractor-trailer cases for more than 15 years.",
+            "href": "https://thegrifelawfirm.com/"
+          },
+          {
+            "title": "Motorcycle Accident Lawyers",
+            "description": "Florida motorcycle crashes require aggressive investigation because insurers assume rider fault. The Grife Law Firm pushes back with scene reconstruction and expert analysis.",
+            "href": "https://thegrifelawfirm.com/"
+          },
+          {
+            "title": "Bicycle & Pedestrian Accidents",
+            "description": "Bicycle and pedestrian cases frequently involve dangerous sidewalks or distracted drivers. The Grife Law Firm has recovered millions in these matters, including a $3M sidewalk-hazard bicycle case.",
+            "href": "https://thegrifelawfirm.com/"
+          }
+        ]
+      },
+      {
+        "label": "Medical Malpractice",
+        "links": [
+          {
+            "title": "Stroke & Heart Attack Misdiagnosis",
+            "description": "Missed stroke and cardiac diagnoses are some of the most devastating Florida medical malpractice cases. Michael Grife has recovered seven and eight figures in stroke misdiagnosis matters.",
+            "href": "https://thegrifelawfirm.com/"
+          },
+          {
+            "title": "Surgical Errors",
+            "description": "Wrong-site surgery, retained instruments, and anesthesia errors at Palm Beach County hospitals and surgical centers. The Grife Law Firm works with medical experts to prove the standard-of-care violation.",
+            "href": "https://thegrifelawfirm.com/"
+          },
+          {
+            "title": "Brain Injury from Medical Negligence",
+            "description": "Anoxic and traumatic brain injuries caused by medical error require life care planning and lifetime damages models. The Grife Law Firm has secured eight-figure recoveries in these cases.",
+            "href": "https://thegrifelawfirm.com/"
+          },
+          {
+            "title": "Nursing Home Neglect",
+            "description": "Falls, bedsores, medication errors, and elopement in Florida nursing homes and assisted living facilities. Michael Grife holds operators accountable under Florida's nursing home statutes.",
+            "href": "https://thegrifelawfirm.com/"
+          }
+        ]
+      },
+      {
+        "label": "Premises Liability",
+        "links": [
+          {
+            "title": "Slip and Fall Cases",
+            "description": "Grocery stores, restaurants, and commercial properties. The Grife Law Firm moves quickly to preserve surveillance footage before it is destroyed.",
+            "href": "https://thegrifelawfirm.com/"
+          },
+          {
+            "title": "Trip and Fall Cases",
+            "description": "Broken pavement, uneven thresholds, and dangerous staircases. Michael Grife has recovered a $2M trip-and-fall verdict in a condo parking lot case.",
+            "href": "https://thegrifelawfirm.com/"
+          },
+          {
+            "title": "Negligent Security",
+            "description": "Assaults in hotels, apartment complexes, and parking garages. The Grife Law Firm pursues property owners who fail to maintain reasonable security in foreseeable-crime cases.",
+            "href": "https://thegrifelawfirm.com/"
+          },
+          {
+            "title": "Cruise Ship Accidents",
+            "description": "Cruise cases involve strict one-year notice requirements and Miami-based federal venue. The Grife Law Firm handles these matters across all major Florida ports.",
+            "href": "https://thegrifelawfirm.com/"
+          }
+        ]
+      },
+      {
+        "label": "Wrongful Death",
+        "links": [
+          {
+            "title": "Florida Wrongful Death Act",
+            "description": "Who can file a wrongful death claim in Florida, the categories of recoverable damages, and how survivors are defined under Florida Statutes Chapter 768.",
+            "href": "https://thegrifelawfirm.com/"
+          },
+          {
+            "title": "Medical Malpractice Wrongful Death",
+            "description": "Wrongful death caused by missed diagnosis, surgical error, or delayed treatment. Michael Grife has secured seven-figure results in fatal medical negligence cases.",
+            "href": "https://thegrifelawfirm.com/"
+          },
+          {
+            "title": "Fatal Car and Truck Crashes",
+            "description": "Fatal crash cases often involve disputed liability, multiple insurance layers, and federal trucking rules. The Grife Law Firm handles both the claim and the grief with care.",
+            "href": "https://thegrifelawfirm.com/"
+          },
+          {
+            "title": "Catastrophic Brain Injury",
+            "description": "Anoxic and traumatic brain injuries that do not cause immediate death but permanently alter a family's life. Eight-figure recoveries are possible with the right experts and life care planning.",
+            "href": "https://thegrifelawfirm.com/"
+          }
+        ]
+      },
+      {
+        "label": "Insurance",
+        "links": [
+          {
+            "title": "Florida No-Fault / PIP",
+            "description": "How Florida's no-fault system works, the 14-day rule for seeking treatment, and when your claim can step outside PIP into a bodily injury liability action.",
+            "href": "https://thegrifelawfirm.com/"
+          },
+          {
+            "title": "Uninsured / Underinsured Motorist",
+            "description": "Florida is one of only two states without mandatory bodily injury insurance. Michael Grife explains why every Florida driver should carry UM/UIM coverage.",
+            "href": "https://thegrifelawfirm.com/"
+          },
+          {
+            "title": "Case Results",
+            "description": "See the verdicts and settlements The Grife Law Firm has secured for clients across Florida — including $10M, $8.5M, $3.5M, $3M, and $2.9M recoveries.",
+            "href": "https://thegrifelawfirm.com/"
+          },
+          {
+            "title": "Free Consultation",
+            "description": "Call The Grife Law Firm at (561) 998-0770 or toll-free (855) 998-0770. Consultations are free and no fee is owed unless there is a recovery.",
+            "href": "https://thegrifelawfirm.com/"
+          }
+        ]
+      }
+    ]
+  },
+  "trustBadges": []
+}
