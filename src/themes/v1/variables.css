@@ -1,39 +1,42 @@
 /* ============================================
    CSS VARIABLES - PODCAST TEMPLATE
+   Michael Grife / Boca Raton palette
+   Primary #121212 near-black | Secondary #1957BB blue | Accent #121212
+   Source: Figma "Grife Law Firm - Podcast" Brand Colors swatches (cSHp2AznAFDs8RDSaeP3i4)
    ============================================ */
 
 :root {
   /* ========== COLORS ========== */
-  /* The Grife Law Firm brand palette — pulled from thegrifelawfirm.com (Paperstreet theme).
-     All-blue palette: primary navy, deeper navy for hover/emphasis, bright blue as CTA accent. */
-  --color-primary: #2B56B5;          /* navy — primary brand, headers, CTAs */
-  --color-primary-hover: #1743A3;    /* deeper navy for hover / emphasis */
-  --color-secondary: #3A71EA;        /* bright blue — CTA accent */
-  --color-secondary-hover: #2B56B5;  /* fall back to primary on hover */
-  --color-secondary-deep: #1743A3;   /* deeper navy for emphasis */
+  /* Primary Colors */
+  --color-primary: #121212;
+  --color-primary-hover: #000000;
+  --color-primary-deep: #000000;
+  --color-secondary: #1957BB;
+  --color-secondary-hover: #14479A;
+  --color-secondary-deep: #0F3878;
 
   /* Accent & Neutral Colors */
-  --color-accent: #3A71EA;
+  --color-accent: #121212;
   --color-background: #ffffff;
-  --color-foreground: #1743A3;
+  --color-foreground: #121212;
 
   /* Muted Colors */
-  --color-muted: #F3F6FC;
-  --color-muted-foreground: #5B6B88;
+  --color-muted: #f5f5f7;
+  --color-muted-foreground: #676767;
 
   /* Card Colors */
-  --color-card: #F3F6FC;
-  --color-card-foreground: #1743A3;
+  --color-card: #eeeef0;
+  --color-card-foreground: #121212;
 
   /* Border & Divider */
   --color-border: #d9d9d9;
 
   /* Additional UI Colors */
   --color-gray-dark: #353535;
-  --color-gray-light: #878787;
-  --color-gray-lighter: #676767;
+  --color-gray-light: #9e9e9e;
+  --color-gray-lighter: #616161;
   --color-beige: #e1dddc;
-  --color-dark-bg: #1743A3;
+  --color-dark-bg: #121212;
 
   /* ========== TYPOGRAPHY ========== */
   --font-heading: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
