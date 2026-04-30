@@ -1,0 +1,13 @@
+{
+  "name": "Boca Raton Injury Law w. Mike Grife",
+  "short_name": "Grife Law Podcast",
+  "description": "Michael K. Grife, founder of The Grife Law Firm, on Florida personal injury and medical malpractice — contingency fees, evidence preservation, mediation, and trial strategy.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#2B56B5",
+  "theme_color": "#2B56B5",
+  "icons": [
+    { "src": "/icon", "sizes": "32x32", "type": "image/png" },
+    { "src": "/apple-icon", "sizes": "180x180", "type": "image/png" }
+  ]
+}
