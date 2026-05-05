@@ -225,7 +225,7 @@ const V1Home = ({ episodes }: V1HomeProps) => {
         <TopicalEntryGrid />
       </main>
 
-      <Footer />
+      <Footer episodes={episodes} />
     </div>
   )
 }
