@@ -155,7 +155,7 @@ const V1EpisodePage = ({ episodeId: _episodeId, episode: rssEpisode, allEpisodes
         <FAQ />
       </main>
 
-      <Footer />
+      <Footer episodes={allEpisodes} />
     </div>
   )
 }

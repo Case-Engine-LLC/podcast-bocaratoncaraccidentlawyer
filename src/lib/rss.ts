@@ -74,6 +74,36 @@ function parseKeywords(kw: unknown): string[] {
   return []
 }
 
+/**
+ * Trim and clean an RSS episode description for display:
+ *   - Strip HTML tags and common HTML entities
+ *   - Remove orphan podcast-host token strings (16+ char alphanumeric IDs
+ *     that occasionally end up in flightcast descriptions)
+ *   - Cut at natural break markers ("WHAT YOU'LL LEARN", "Free consultation
+ *     at", "Phone:") so the bullet-list and CTA tail don't bleed into cards
+ *   - Cap at ~400 characters with an ellipsis
+ */
+export function cleanEpisodeDescription(raw: string, maxLen = 400): string {
+  if (!raw) return ''
+  let s = raw.replace(/<[^>]*>/g, '').replace(/&#39;/g, "'").replace(/&amp;/g, '&').replace(/&quot;/g, '"').trim()
+  s = s.replace(/\b(?=[A-Za-z0-9]*\d)[A-Za-z0-9]{16,}\b/g, '')
+  const cutMarkers = [
+    /WHAT YOU['’]LL LEARN/i,
+    /\bFree consultation at\b/i,
+    /\bPhone:\s*\(?\d/,
+    /\bSubscribe\s+(?:on|via)\b/i,
+  ]
+  for (const m of cutMarkers) {
+    const idx = s.search(m)
+    if (idx > 80) s = s.slice(0, idx)
+  }
+  s = s.replace(/\s{2,}/g, ' ').trim()
+  if (s.length > maxLen) {
+    s = s.slice(0, maxLen).replace(/\s+\S*$/, '').replace(/[\s,;:.]+$/, '') + '…'
+  }
+  return s
+}
+
 function parseDuration(dur: unknown): string {
   if (!dur) return '00:00'
   const s = String(dur)
@@ -131,7 +161,7 @@ export async function fetchPodcastFeed(rssUrl: string): Promise<PodcastFeed> {
       guid: String(item.guid ?? item.link ?? `ep-${episodeNum}`),
       title: String(item.title ?? ''),
       subtitle: String(item['itunes:subtitle'] ?? item['itunes:summary'] ?? '').slice(0, 120),
-      description: String(item.description ?? item['content:encoded'] ?? '').replace(/<[^>]*>/g, ''),
+      description: cleanEpisodeDescription(String(item.description ?? item['content:encoded'] ?? '')),
       date: formatDate(pubDate),
       rawDate: pubDate ? new Date(pubDate).toISOString() : '',
       duration: parseDuration(item['itunes:duration']),

@@ -3,15 +3,15 @@
 import React from 'react'
 import Link from 'next/link'
 import { Facebook, Instagram, Linkedin, Twitter, Youtube } from 'lucide-react'
-import { footer, chapters } from '@/data/siteData'
+import { footer } from '@/data/siteData'
+import type { Episode } from '@/lib/data'
 
-const Footer = () => {
+interface FooterProps {
+  episodes?: Episode[]
+}
+
+const Footer = ({ episodes }: FooterProps) => {
   const currentYear = new Date().getFullYear()
-
-  const episodes = chapters.map((ch, idx) => ({
-    name: `Episode ${ch.number}: ${ch.title.split(':')[0]}`,
-    href: `#chapter-${ch.number}`,
-  }))
 
   return (
     <footer className="bg-[#0a0a1a] text-white">
@@ -57,21 +57,23 @@ const Footer = () => {
             </div>
           </div>
 
-          {/* Right Column - Episodes */}
-          <div>
-            <h3 className="text-xl font-bold text-white mb-6">Episodes</h3>
-            <div className="grid grid-cols-3 gap-x-8 gap-y-4">
-              {episodes.map((episode, index) => (
-                <Link
-                  key={index}
-                  href={episode.href}
-                  className="text-base text-white/80 hover:text-white transition-colors"
-                >
-                  {episode.name}
-                </Link>
-              ))}
+          {/* Right Column - Episodes (only render if any) */}
+          {episodes && episodes.length > 0 && (
+            <div>
+              <h3 className="text-xl font-bold text-white mb-6">Episodes</h3>
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-x-8 gap-y-3">
+                {episodes.map((ep) => (
+                  <Link
+                    key={ep.id}
+                    href={`/episode/${ep.id}`}
+                    className="text-base text-white/80 hover:text-white transition-colors truncate"
+                  >
+                    Ep. {ep.number}: {ep.title}
+                  </Link>
+                ))}
+              </div>
             </div>
-          </div>
+          )}
         </div>
       </div>
 
