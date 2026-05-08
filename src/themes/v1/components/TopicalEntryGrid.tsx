@@ -44,9 +44,21 @@ const TopicalEntryGrid = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-6xl mx-auto">
           {topicalEntryGrid.tabs[activeTab].links.map((link, index) => {
             const isExternal = /^https?:\/\//.test(link.href)
+            const linkImage = (link as { image?: string }).image
             const cardClass = "bg-white rounded-2xl overflow-hidden hover:shadow-xl transition-all group p-6 md:p-8 flex flex-col justify-center"
             const inner = (
               <>
+                <div className="w-full h-32 md:h-36 bg-[#E5EDF7] rounded-xl flex items-center justify-center mb-5 -mx-2 md:-mx-3">
+                  {linkImage ? (
+                    // eslint-disable-next-line @next/next/no-img-element
+                    <img src={linkImage} alt="" aria-hidden="true" className="w-20 h-20 md:w-24 md:h-24" />
+                  ) : (
+                    <svg width="60" height="60" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <circle cx="25" cy="20" r="6" stroke="#1957BB" strokeWidth="2" strokeOpacity="0.4"/>
+                      <path d="M10 50 L25 35 L40 45 L50 30" stroke="#1957BB" strokeWidth="2" strokeLinecap="round" strokeOpacity="0.4"/>
+                    </svg>
+                  )}
+                </div>
                 <h3 className="text-xl md:text-2xl font-bold text-black mb-3">{link.title}</h3>
                 <p className="text-sm md:text-base text-gray-600 leading-relaxed mb-4">{link.description}</p>
                 <div className="flex items-center text-black font-semibold group-hover:text-secondary transition-colors">
