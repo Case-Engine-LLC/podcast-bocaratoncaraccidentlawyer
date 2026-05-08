@@ -506,22 +506,26 @@
           {
             "title": "Car Accident Lawyers",
             "description": "The Grife Law Firm represents Florida drivers and passengers injured in car crashes, from I-95 collisions to intersection impacts across Palm Beach County.",
-            "href": "https://thegrifelawfirm.com/car-accidents/"
+            "href": "https://thegrifelawfirm.com/car-accidents/",
+            "image": "/topical/icon-pa-car.svg"
           },
           {
             "title": "Truck Accident Lawyers",
             "description": "Commercial truck crashes involve federal trucking regulations, multiple liable parties, and catastrophic injuries, Michael Grife has handled Florida tractor-trailer cases for more than 15 years.",
-            "href": "https://thegrifelawfirm.com/truck-accidents/"
+            "href": "https://thegrifelawfirm.com/truck-accidents/",
+            "image": "/topical/icon-pa-truck.svg"
           },
           {
             "title": "Motorcycle Accident Lawyers",
             "description": "Florida motorcycle crashes require aggressive investigation because insurers assume rider fault. The Grife Law Firm pushes back with scene reconstruction and expert analysis.",
-            "href": "https://thegrifelawfirm.com/motorcycle-accidents/"
+            "href": "https://thegrifelawfirm.com/motorcycle-accidents/",
+            "image": "/topical/icon-pa-moto.svg"
           },
           {
             "title": "Bicycle & Pedestrian Accidents",
             "description": "Bicycle and pedestrian cases frequently involve dangerous sidewalks or distracted drivers. The Grife Law Firm has recovered millions in these matters, including a $3M sidewalk-hazard bicycle case.",
-            "href": "https://thegrifelawfirm.com/bicycle-accidents/"
+            "href": "https://thegrifelawfirm.com/bicycle-accidents/",
+            "image": "/topical/icon-pa-bike.svg"
           }
         ]
       },
@@ -531,22 +535,26 @@
           {
             "title": "Stroke & Heart Attack Misdiagnosis",
             "description": "Missed stroke and cardiac diagnoses are some of the most devastating Florida medical malpractice cases. Michael Grife has recovered seven and eight figures in stroke misdiagnosis matters.",
-            "href": "https://thegrifelawfirm.com/medical-malpractice/misdiagnosis/"
+            "href": "https://thegrifelawfirm.com/medical-malpractice/misdiagnosis/",
+            "image": "/topical/icon-pa-medical.svg"
           },
           {
             "title": "Surgical Errors",
             "description": "Wrong-site surgery, retained instruments, and anesthesia errors at Palm Beach County hospitals and surgical centers. The Grife Law Firm works with medical experts to prove the standard-of-care violation.",
-            "href": "https://thegrifelawfirm.com/medical-malpractice/surgical-errors/"
+            "href": "https://thegrifelawfirm.com/medical-malpractice/surgical-errors/",
+            "image": "/topical/icon-svc-investigate.svg"
           },
           {
             "title": "Brain Injury from Medical Negligence",
             "description": "Anoxic and traumatic brain injuries caused by medical error require life care planning and lifetime damages models. The Grife Law Firm has secured eight-figure recoveries in these cases.",
-            "href": "https://thegrifelawfirm.com/catastrophic-injury/brain-injury/"
+            "href": "https://thegrifelawfirm.com/catastrophic-injury/brain-injury/",
+            "image": "/topical/icon-svc-damages.svg"
           },
           {
             "title": "Nursing Home Neglect",
             "description": "Falls, bedsores, medication errors, and elopement in Florida nursing homes and assisted living facilities. Michael Grife holds operators accountable under Florida's nursing home statutes.",
-            "href": "https://thegrifelawfirm.com/nursing-home-negligence/"
+            "href": "https://thegrifelawfirm.com/nursing-home-negligence/",
+            "image": "/topical/icon-svc-liability.svg"
           }
         ]
       },
@@ -556,22 +564,26 @@
           {
             "title": "Slip and Fall Cases",
             "description": "Grocery stores, restaurants, and commercial properties. The Grife Law Firm moves quickly to preserve surveillance footage before it is destroyed.",
-            "href": "https://thegrifelawfirm.com/slip-falls/"
+            "href": "https://thegrifelawfirm.com/slip-falls/",
+            "image": "/topical/icon-pa-pedestrian.svg"
           },
           {
             "title": "Trip and Fall Cases",
             "description": "Broken pavement, uneven thresholds, and dangerous staircases. Michael Grife has recovered a $2M trip-and-fall verdict in a condo parking lot case.",
-            "href": "https://thegrifelawfirm.com/personal-injury/premises-liability/"
+            "href": "https://thegrifelawfirm.com/personal-injury/premises-liability/",
+            "image": "/topical/icon-phase-investigate.svg"
           },
           {
             "title": "Negligent Security",
             "description": "Assaults in hotels, apartment complexes, and parking garages. The Grife Law Firm pursues property owners who fail to maintain reasonable security in foreseeable-crime cases.",
-            "href": "https://thegrifelawfirm.com/personal-injury/premises-liability/negligent-security/"
+            "href": "https://thegrifelawfirm.com/personal-injury/premises-liability/negligent-security/",
+            "image": "/topical/icon-svc-defense.svg"
           },
           {
             "title": "Cruise Ship Accidents",
             "description": "Cruise cases involve strict one-year notice requirements and Miami-based federal venue. The Grife Law Firm handles these matters across all major Florida ports.",
-            "href": "https://thegrifelawfirm.com/personal-injury/cruise-ship-accidents/"
+            "href": "https://thegrifelawfirm.com/personal-injury/cruise-ship-accidents/",
+            "image": "/topical/icon-pa-rideshare.svg"
           }
         ]
       },
@@ -581,22 +593,26 @@
           {
             "title": "Florida Wrongful Death Act",
             "description": "Who can file a wrongful death claim in Florida, the categories of recoverable damages, and how survivors are defined under Florida Statutes Chapter 768.",
-            "href": "https://thegrifelawfirm.com/wrongful-death/"
+            "href": "https://thegrifelawfirm.com/wrongful-death/",
+            "image": "/topical/icon-pa-wrongful-death.svg"
           },
           {
             "title": "Medical Malpractice Wrongful Death",
             "description": "Wrongful death caused by missed diagnosis, surgical error, or delayed treatment. Michael Grife has secured seven-figure results in fatal medical negligence cases.",
-            "href": "https://thegrifelawfirm.com/medical-malpractice/"
+            "href": "https://thegrifelawfirm.com/medical-malpractice/",
+            "image": "/topical/icon-svc-comply.svg"
           },
           {
             "title": "Fatal Car and Truck Crashes",
             "description": "Fatal crash cases often involve disputed liability, multiple insurance layers, and federal trucking rules. The Grife Law Firm handles both the claim and the grief with care.",
-            "href": "https://thegrifelawfirm.com/car-accidents/fatal-car-accidents/"
+            "href": "https://thegrifelawfirm.com/car-accidents/fatal-car-accidents/",
+            "image": "/topical/icon-phase-litigate.svg"
           },
           {
             "title": "Catastrophic Brain Injury",
             "description": "Anoxic and traumatic brain injuries that do not cause immediate death but permanently alter a family's life. Eight-figure recoveries are possible with the right experts and life care planning.",
-            "href": "https://thegrifelawfirm.com/catastrophic-injury/"
+            "href": "https://thegrifelawfirm.com/catastrophic-injury/",
+            "image": "/topical/icon-svc-damages.svg"
           }
         ]
       },
@@ -606,22 +622,26 @@
           {
             "title": "Florida No-Fault / PIP",
             "description": "How Florida's no-fault system works, the 14-day rule for seeking treatment, and when your claim can step outside PIP into a bodily injury liability action.",
-            "href": "https://thegrifelawfirm.com/personal-injury/insurance-disputes/"
+            "href": "https://thegrifelawfirm.com/personal-injury/insurance-disputes/",
+            "image": "/topical/icon-svc-insurance.svg"
           },
           {
             "title": "Uninsured / Underinsured Motorist",
             "description": "Florida is one of only two states without mandatory bodily injury insurance. Michael Grife explains why every Florida driver should carry UM/UIM coverage.",
-            "href": "https://thegrifelawfirm.com/car-accidents/why-you-need-uninsured-underinsured-motorist-coverage/"
+            "href": "https://thegrifelawfirm.com/car-accidents/why-you-need-uninsured-underinsured-motorist-coverage/",
+            "image": "/topical/icon-phase-negotiate.svg"
           },
           {
             "title": "Case Results",
             "description": "See the verdicts and settlements The Grife Law Firm has secured for clients across Florida, including $10M, $8.5M, $3.5M, $3M, and $2.9M recoveries.",
-            "href": "https://thegrifelawfirm.com/verdicts-settlements/"
+            "href": "https://thegrifelawfirm.com/verdicts-settlements/",
+            "image": "/topical/icon-phase-resolve.svg"
           },
           {
             "title": "Free Consultation",
             "description": "Call The Grife Law Firm at (561) 998-0770 or toll-free (855) 998-0770. Consultations are free and no fee is owed unless there is a recovery.",
-            "href": "https://thegrifelawfirm.com/contact-us/"
+            "href": "https://thegrifelawfirm.com/contact-us/",
+            "image": "/topical/icon-phase-consult.svg"
           }
         ]
       }
