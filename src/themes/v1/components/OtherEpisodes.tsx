@@ -15,35 +15,16 @@ const OtherEpisodes = ({ episodes: propEpisodes }: OtherEpisodesProps) => {
   const episodesData = propEpisodes ?? staticEpisodesData
   const [currentIndex, setCurrentIndex] = useState(0)
 
-  // Map episodes from siteData - for now we just have episode 1
-  // Show "Coming Soon" for future episodes
-  const episodes = [
-    ...episodesData.map(ep => ({
+  const episodes = [...episodesData]
+    .sort((a, b) => Number(a.number ?? a.id) - Number(b.number ?? b.id))
+    .map(ep => ({
       id: String(ep.id),
       title: ep.title,
       episodeNumber: `Episode ${ep.number}`,
       category: ep.category,
       duration: ep.duration,
-      image: null,
-    })),
-    // Coming soon placeholders
-    {
-      id: 'coming-2',
-      title: 'Coming Soon: New Attorney Interview',
-      episodeNumber: 'Episode 2',
-      category: 'Personal Injury',
-      duration: 'TBA',
-      image: null,
-    },
-    {
-      id: 'coming-3',
-      title: 'Coming Soon: New Attorney Interview',
-      episodeNumber: 'Episode 3',
-      category: 'Personal Injury',
-      duration: 'TBA',
-      image: null,
-    },
-  ]
+      image: ep.logo || '/cover-placeholder.jpg',
+    }))
 
   const maxIndex = Math.max(0, episodes.length - 3)
 
@@ -80,15 +61,11 @@ const OtherEpisodes = ({ episodes: propEpisodes }: OtherEpisodesProps) => {
             {episodes.map((episode) => (
               <Link
                 key={episode.id}
-                href={episode.id.startsWith('coming') ? '#subscribe' : `/episode/${episode.id}`}
+                href={`/episode/${episode.id}`}
                 className="group flex flex-col flex-shrink-0 w-full md:w-[calc(33.333%-1rem)]"
               >
                 <div className="aspect-video bg-gray-200 rounded-2xl mb-4 overflow-hidden relative flex items-center justify-center">
-                  {episode.image ? (
-                    <img src={episode.image} alt={episode.title} className="w-full h-full object-cover" />
-                  ) : (
-                    <img src="/cover-placeholder.jpg" alt={episode.title} className="w-full h-full object-cover opacity-60" />
-                  )}
+                  <img src={episode.image} alt={episode.title} className="w-full h-full object-contain bg-black" />
                 </div>
 
                 <div className="inline-block bg-gray-200 px-3 py-1.5 rounded-md text-xs font-bold text-black uppercase tracking-widest self-start mb-3">

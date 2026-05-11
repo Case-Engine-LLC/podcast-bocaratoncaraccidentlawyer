@@ -1,7 +1,6 @@
 'use client'
 
 import React from 'react'
-import Link from 'next/link'
 import { Facebook, Instagram, Linkedin, Twitter, Youtube } from 'lucide-react'
 import { footer } from '@/data/siteData'
 import type { Episode } from '@/lib/data'
@@ -12,6 +11,13 @@ interface FooterProps {
 
 const Footer = ({ episodes }: FooterProps) => {
   const currentYear = new Date().getFullYear()
+  const socialItems = [
+    { href: footer.socialLinks.twitter, label: 'Twitter', Icon: Twitter },
+    { href: footer.socialLinks.linkedin, label: 'LinkedIn', Icon: Linkedin },
+    { href: footer.socialLinks.facebook, label: 'Facebook', Icon: Facebook },
+    { href: footer.socialLinks.instagram, label: 'Instagram', Icon: Instagram },
+    { href: footer.socialLinks.youtube, label: 'YouTube', Icon: Youtube },
+  ].filter(item => item.href && item.href !== '#')
 
   return (
     <footer className="bg-[#0a0a1a] text-white">
@@ -38,23 +44,22 @@ const Footer = ({ episodes }: FooterProps) => {
             <p className="text-base text-white/70 leading-relaxed mb-8 max-w-md">
               {footer.description}
             </p>
-            <div className="flex items-center gap-4">
-              <Link href={footer.socialLinks.twitter} className="hover:opacity-70 transition-opacity">
-                <Twitter size={20} className="text-white" />
-              </Link>
-              <Link href={footer.socialLinks.linkedin} className="hover:opacity-70 transition-opacity">
-                <Linkedin size={20} className="text-white" />
-              </Link>
-              <Link href={footer.socialLinks.facebook} className="hover:opacity-70 transition-opacity">
-                <Facebook size={20} className="text-white" />
-              </Link>
-              <Link href={footer.socialLinks.instagram} className="hover:opacity-70 transition-opacity">
-                <Instagram size={20} className="text-white" />
-              </Link>
-              <Link href={footer.socialLinks.youtube} className="hover:opacity-70 transition-opacity">
-                <Youtube size={20} className="text-white" />
-              </Link>
-            </div>
+            {socialItems.length > 0 && (
+              <div className="flex items-center gap-4">
+                {socialItems.map(({ href, label, Icon }) => (
+                  <a
+                    key={label}
+                    href={href}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label={label}
+                    className="hover:opacity-70 transition-opacity"
+                  >
+                    <Icon size={20} className="text-white" />
+                  </a>
+                ))}
+              </div>
+            )}
           </div>
 
           {/* Right Column - Episodes (only render if any) */}
@@ -63,13 +68,13 @@ const Footer = ({ episodes }: FooterProps) => {
               <h3 className="text-xl font-bold text-white mb-6">Episodes</h3>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-x-8 gap-y-3">
                 {episodes.map((ep) => (
-                  <Link
+                  <a
                     key={ep.id}
                     href={`/episode/${ep.id}`}
-                    className="text-base text-white/80 hover:text-white transition-colors truncate"
+                    className="text-base text-white/80 hover:text-white transition-colors"
                   >
                     Ep. {ep.number}: {ep.title}
-                  </Link>
+                  </a>
                 ))}
               </div>
             </div>
