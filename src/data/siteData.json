@@ -431,7 +431,8 @@
       },
       {
         "name": "Contact",
-        "href": "#contact"
+        "href": "https://thegrifelawfirm.com/contact-us/",
+        "external": true
       }
     ],
     "ctaText": "Subscribe",
@@ -467,7 +468,7 @@
     },
     "formCTA": {
       "text": "Free Consultation",
-      "href": "#contact"
+      "href": "https://thegrifelawfirm.com/contact-us/"
     },
     "firmUrl": "https://thegrifelawfirm.com"
   },
