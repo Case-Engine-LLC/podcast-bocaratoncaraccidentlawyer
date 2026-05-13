@@ -1,9 +1,23 @@
 'use client'
 
 import React from 'react'
-import { Facebook, Instagram, Linkedin, Twitter, Youtube } from 'lucide-react'
+import { Facebook, Instagram, Linkedin, Youtube } from 'lucide-react'
 import { footer } from '@/data/siteData'
 import type { Episode } from '@/lib/data'
+
+const XIcon = ({ size = 20, className = '' }: { size?: number; className?: string }) => (
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    width={size}
+    height={size}
+    viewBox="0 0 24 24"
+    fill="currentColor"
+    className={className}
+    aria-hidden="true"
+  >
+    <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24h-6.66l-5.214-6.817-5.967 6.817H1.677l7.73-8.835L1.254 2.25H8.08l4.713 6.231 5.45-6.231Zm-1.161 17.52h1.833L7.084 4.126H5.117l11.966 15.644Z" />
+  </svg>
+)
 
 interface FooterProps {
   episodes?: Episode[]
@@ -12,7 +26,7 @@ interface FooterProps {
 const Footer = ({ episodes }: FooterProps) => {
   const currentYear = new Date().getFullYear()
   const socialItems = [
-    { href: footer.socialLinks.twitter, label: 'Twitter', Icon: Twitter },
+    { href: footer.socialLinks.twitter, label: 'X', Icon: XIcon },
     { href: footer.socialLinks.linkedin, label: 'LinkedIn', Icon: Linkedin },
     { href: footer.socialLinks.facebook, label: 'Facebook', Icon: Facebook },
     { href: footer.socialLinks.instagram, label: 'Instagram', Icon: Instagram },
