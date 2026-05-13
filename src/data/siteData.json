@@ -349,11 +349,10 @@
     "description": "Boca Raton Injury Law with Mike Grife is a podcast dedicated to helping Florida accident victims understand their legal rights and navigate the personal injury and medical malpractice claims process. Hosted by Michael K. Grife of The Grife Law Firm, each episode delivers practical guidance drawn from more than $100 million recovered for injured clients across Florida.",
     "copyright": "The Grife Law Firm",
     "socialLinks": {
-      "twitter": "",
-      "linkedin": "",
-      "facebook": "https://www.facebook.com/thegrifelawfirm",
-      "instagram": "https://www.instagram.com/thegrifelawfirm",
-      "youtube": ""
+      "facebook": "https://www.facebook.com/thegrifelawfirm/",
+      "instagram": "https://www.instagram.com/thegrifelawfirm/",
+      "linkedin": "https://www.linkedin.com/company/the-grife-law-firm-p-a-/",
+      "twitter": "https://twitter.com/TheGrifeLawFirm"
     }
   },
   "formConfig": {
