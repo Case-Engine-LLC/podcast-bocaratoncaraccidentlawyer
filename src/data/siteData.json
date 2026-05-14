@@ -22,7 +22,7 @@
       "Today Michael Grife focuses on catastrophic injury, wrongful death, and medical malpractice cases (traumatic brain injuries, anoxic brain injuries, paralysis, stroke misdiagnosis, surgical error, and nursing home neglect) alongside car, truck, motorcycle, and dangerous property fall matters. He serves on the Palm Beach County Bar Association Civil Practice Committee and the personal injury and wrongful death CLE committee, and The Grife Law Firm is frequently recognized on peer-review honor rolls. Past results do not guarantee a similar outcome."
     ],
     "signature": "/images/signature.png",
-    "photo": "/attorney-1.avif"
+    "photo": "/headshot-michael-grife.png"
   },
   "authorProfiles": {
     "michael-grife": {
@@ -445,7 +445,7 @@
     {
       "name": "Michael K. Grife",
       "role": "Host & Founding Attorney",
-      "photo": "/attorney-1.avif",
+      "photo": "/headshot-michael-grife.png",
       "slug": "michael-grife",
       "bio": "Michael K. Grife is the founder of The Grife Law Firm and the host of Boca Raton Injury Law. He built the Boca Raton firm in 2014 to represent injured clients across Florida in catastrophic injury, medical malpractice, and wrongful death cases, and has recovered over $100 million for clients. Florida Bar #16583; admitted 2005.",
       "episodes": "Host of all episodes"
@@ -453,7 +453,7 @@
     {
       "name": "Patrick W. Knight",
       "role": "Shareholder & Guest Attorney",
-      "photo": "/attorney-2.avif",
+      "photo": "/headshot-patrick-knight.webp",
       "slug": "patrick-knight",
       "bio": "Patrick W. Knight is a shareholder at The Grife Law Firm and one of the few Florida attorneys who is Board Certified in Civil Trial Law. He has taken more than 170 cases to jury trial and joins Boca Raton Injury Law as a guest on trial strategy, medical malpractice, and catastrophic injury cases. Florida Bar #116289; admitted 1997.",
       "episodes": "Guest attorney on select episodes"
@@ -466,8 +466,8 @@
     "podcastUrl": "https://podcast-bocaratoncaraccidentlawyer.vercel.app",
     "rssFeedUrl": "https://rss2.flightcast.com/h484arcmcz73w42ytuahrggr.xml",
     "platformLinks": {
-      "apple": "",
-      "spotify": ""
+      "apple": "https://podcasts.apple.com/us/channel/boca-raton-injury-law/id6769116485",
+      "spotify": "https://open.spotify.com/show/7v437g1qcjqgqaNHVvpYF3"
     },
     "formCTA": {
       "text": "Free Consultation",
