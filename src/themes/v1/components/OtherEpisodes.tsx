@@ -19,6 +19,7 @@ const OtherEpisodes = ({ episodes: propEpisodes }: OtherEpisodesProps) => {
     .sort((a, b) => Number(a.number ?? a.id) - Number(b.number ?? b.id))
     .map(ep => ({
       id: String(ep.id),
+      slug: (ep as { slug?: string }).slug,
       title: ep.title,
       episodeNumber: `Episode ${ep.number}`,
       category: ep.category,
