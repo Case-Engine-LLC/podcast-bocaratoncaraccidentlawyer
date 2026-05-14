@@ -61,7 +61,7 @@ const OtherEpisodes = ({ episodes: propEpisodes }: OtherEpisodesProps) => {
             {episodes.map((episode) => (
               <Link
                 key={episode.id}
-                href={`/episode/${episode.id}`}
+                href={`/episode/${episode.slug}`}
                 className="group flex flex-col flex-shrink-0 w-full md:w-[calc(33.333%-1rem)]"
               >
                 <div className="aspect-video bg-gray-200 rounded-2xl mb-4 overflow-hidden relative flex items-center justify-center">
