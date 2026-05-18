@@ -11,7 +11,7 @@ interface EpisodeHeroProps {
 const EpisodeHero = ({ episode: propEpisode }: EpisodeHeroProps) => {
   const ep = propEpisode ?? staticEpisode
   const [descExpanded, setDescExpanded] = useState(false)
-  const episodeImage = (ep as { logo?: string }).logo || '/cover-placeholder.jpg'
+  const episodeImage = (ep as { logo?: string }).logo || '/episode-art.avif'
   const platformLinks = [
     { href: siteConfig.platformLinks.apple, label: 'Apple Podcast', eyebrow: 'Available on', kind: 'apple' },
     { href: siteConfig.platformLinks.spotify, label: 'Spotify', eyebrow: 'Available on', kind: 'spotify' },
