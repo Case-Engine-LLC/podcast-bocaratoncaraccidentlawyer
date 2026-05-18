@@ -15,17 +15,30 @@ const OtherEpisodes = ({ episodes: propEpisodes }: OtherEpisodesProps) => {
   const episodesData = propEpisodes ?? staticEpisodesData
   const [currentIndex, setCurrentIndex] = useState(0)
 
-  const episodes = [...episodesData]
+  const realEpisodes = [...episodesData]
     .sort((a, b) => Number(a.number ?? a.id) - Number(b.number ?? b.id))
     .map(ep => ({
-      id: String(ep.id),
       slug: (ep as { slug?: string }).slug,
+      id: String(ep.id),
       title: ep.title,
       episodeNumber: `Episode ${ep.number}`,
       category: ep.category,
       duration: ep.duration,
-      image: ep.logo || '/cover-placeholder.jpg',
+      image: (ep as { logo?: string }).logo ?? null,
     }))
+
+  const comingSoonSlots = Math.max(0, 3 - realEpisodes.length)
+  const comingSoon = Array.from({ length: comingSoonSlots }, (_, i) => ({
+    slug: undefined,
+    id: `coming-${realEpisodes.length + i + 1}`,
+    title: 'Coming Soon: New Attorney Interview',
+    episodeNumber: `Episode ${realEpisodes.length + i + 1}`,
+    category: 'Personal Injury',
+    duration: 'TBA',
+    image: null,
+  }))
+
+  const episodes = [...realEpisodes, ...comingSoon]
 
   const maxIndex = Math.max(0, episodes.length - 3)
 
@@ -62,11 +75,15 @@ const OtherEpisodes = ({ episodes: propEpisodes }: OtherEpisodesProps) => {
             {episodes.map((episode) => (
               <Link
                 key={episode.id}
-                href={`/episode/${(episode as { slug?: string }).slug ?? episode.id}`}
+                href={episode.id.startsWith('coming') ? '#subscribe' : `/episode/${(episode as { slug?: string }).slug ?? episode.id}`}
                 className="group flex flex-col flex-shrink-0 w-full md:w-[calc(33.333%-1rem)]"
               >
                 <div className="aspect-video bg-gray-200 rounded-2xl mb-4 overflow-hidden relative flex items-center justify-center">
-                  <img src={episode.image} alt={episode.title} className="w-full h-full object-contain bg-black" />
+                  {episode.image ? (
+                    <img src={episode.image} alt={episode.title} className="w-full h-full object-cover" />
+                  ) : (
+                    <img src="/cover-placeholder.jpg" alt={episode.title} className="w-full h-full object-cover opacity-60" />
+                  )}
                 </div>
 
                 <div className="inline-block bg-gray-200 px-3 py-1.5 rounded-md text-xs font-bold text-black uppercase tracking-widest self-start mb-3">
