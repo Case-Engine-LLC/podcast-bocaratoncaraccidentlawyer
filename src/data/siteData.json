@@ -497,7 +497,56 @@
       "Answers to listener questions about Florida accident and injury law"
     ]
   },
-  "testimonials": [],
+  "testimonials": [
+    {
+      "id": 1,
+      "name": "Gloria S.",
+      "initials": "GS",
+      "role": "Verified Client",
+      "rating": 5,
+      "text": "Another automobile hit my husband and me, on March 13, 2014. Our Lincoln SUV was T-boned and flipped on its side rolling twice and ending on the roof, totaled. My husband and I both had to be cut out of the car. Test results indicated that we had many serious injuries! I have eight herniated and bulging discs (pressing against my spinal cord) in my neck and back. Severe enough, that it has altered my way of life forever. My husband, who was hanging by his left arm upside down, now needs shoulder replacement, also receiving 5 damaged disks! I called Michael Grife, whom I had met in 2011. I cannot say enough about Michael, he not only took over all of the extremely stressful contact with insurance companies and doctors, he directed me and my husband to very good doctors. He has been so supportive throughout our entire ordeal. He has been more like family than an attorney. He just settled our case and we received the maximum settlement. He made what was an unbearable situation much easier to go through."
+    },
+    {
+      "id": 2,
+      "name": "Nick C.",
+      "initials": "NC",
+      "role": "Verified Client",
+      "rating": 5,
+      "text": "I am a former client of Michael Grife and The Grife Law Firm. My slip and fall case settled just a few months ago. I was badly injured and it has changed my life as well as my family. It was a very difficult time for all of us. I feel very fortunate to have had michael grife representing me as well as his entire law firm. They are caring, compassionate, and your not just another case to them. They make your case their personal mission to get you the justice you deserve."
+    },
+    {
+      "id": 3,
+      "name": "Phyllis C.",
+      "initials": "PC",
+      "role": "Verified Client",
+      "rating": 5,
+      "text": "I experienced a slip and fall. I began searching for an attorney and found Mr. Michael Grife. My first interview with Mr. Grife was very informative. He explained all of the legal avenue I could take. Mr. Grife exudes professionalism, integrity and the capability to assure his client(s) he will give 100% of his time and talent to win your case. I am truly thankful and bless to have worked with Mr. Grife and wish him a long and prosperous career."
+    },
+    {
+      "id": 4,
+      "name": "Tim",
+      "initials": "T",
+      "role": "Verified Client",
+      "rating": 5,
+      "text": "Mike helped me through a long tedious case that most attorneys turned away. He got amazing result and I couldn't have asked for anything more. Mike did everything from making sure I got the correct medical attention to personally picking me up to come to his office for my deposition. I now not only have a great attorney in South Florida, but also a great friend."
+    },
+    {
+      "id": 5,
+      "name": "Carol & Harold",
+      "initials": "CH",
+      "role": "Verified Client",
+      "rating": 5,
+      "text": "Dear Michael: Harold and I wish to convey our gratitude for the time, effort and expertise you have expended on our behalf in seeking settlement in our personal injury case. We are especially appreciative of your professionalism and your commitment to representing our best interests at a very stressful time in our lives. Your caring and compassion is very evident as is your sense of humor. It has amazed that, in a relatively short time, you have guided us from a point of greatest vulnerability to full and final resolution with maximum benefit."
+    },
+    {
+      "id": 6,
+      "name": "Marilyn",
+      "initials": "M",
+      "role": "Verified Client",
+      "rating": 5,
+      "text": "Dear Michael, Gene and I wish to thank you for all you have done for us. The personal attention given to each and every situation you have handled for us is way beyond what we expected when we first met you. You feel to us like more a friend than an attorney. You handled my slip and fall back in 2011 with complete professionalism, staying in touch with us as if this was your biggest case. We know it was small potatoes compared to many of the cases you were handling at that time. Then in 2013 when our family was served glass in our banana split at Disney World you were there for us again. We weren't sure you would even consider this case. Yet again you were there for us with friendship and professional demeanor that was outstanding."
+    }
+  ],
   "topicalEntryGrid": {
     "title": "Explore The Grife Law Firm's Practice Areas",
     "description": "Browse the Florida injury topics Michael Grife covers on the podcast. Each card links to a deeper resource from The Grife Law Firm on that situation.",

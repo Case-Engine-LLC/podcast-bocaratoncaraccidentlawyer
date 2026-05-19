@@ -13,6 +13,7 @@ interface OtherEpisodesProps {
 
 const OtherEpisodes = ({ episodes: propEpisodes }: OtherEpisodesProps) => {
   const episodesData = propEpisodes ?? staticEpisodesData
+  const fallbackArt = episodesData.find((e) => (e as { logo?: string }).logo && (e as { logo?: string }).logo!.trim() !== '')?.logo as string | undefined
   const [currentIndex, setCurrentIndex] = useState(0)
 
   const realEpisodes = [...episodesData]
@@ -28,8 +29,8 @@ const OtherEpisodes = ({ episodes: propEpisodes }: OtherEpisodesProps) => {
     }))
 
   // Use the most recent real episode's cover as the Coming Soon thumbnail
-  // so unreleased slots don't render the 337-byte /episode-art.avif placeholder.
-  const fallbackCover = realEpisodes[0]?.image ?? null
+  // so unreleased slots can fall back to a real episode cover when present.
+  const fallbackCover = realEpisodes[0]?.image ?? fallbackArt ?? null
   const comingSoonSlots = Math.max(0, 3 - realEpisodes.length)
   const comingSoon = Array.from({ length: comingSoonSlots }, (_, i) => ({
     slug: undefined,
@@ -81,12 +82,12 @@ const OtherEpisodes = ({ episodes: propEpisodes }: OtherEpisodesProps) => {
                 href={episode.id.startsWith('coming') ? '#subscribe' : `/episode/${(episode as { slug?: string }).slug ?? episode.id}`}
                 className="group flex flex-col flex-shrink-0 w-full md:w-[calc(33.333%-1rem)]"
               >
-                <div className="aspect-video bg-gray-200 rounded-2xl mb-4 overflow-hidden relative flex items-center justify-center">
+                <div className="aspect-square bg-black rounded-2xl mb-4 overflow-hidden relative flex items-center justify-center">
                   {episode.image ? (
-                    <img src={episode.image} alt={episode.title} className="w-full h-full object-cover" />
-                  ) : (
-                    <img src="/episode-art.avif" alt={episode.title} className="w-full h-full object-cover opacity-60" />
-                  )}
+                    <img src={episode.image} alt={episode.title} className="w-full h-full object-contain" />
+                  ) : fallbackArt ? (
+                    <img src={fallbackArt} alt={episode.title} className="w-full h-full object-contain opacity-60" />
+                  ) : null}
                 </div>
 
                 <div className="inline-block bg-gray-200 px-3 py-1.5 rounded-md text-xs font-bold text-black uppercase tracking-widest self-start mb-3">

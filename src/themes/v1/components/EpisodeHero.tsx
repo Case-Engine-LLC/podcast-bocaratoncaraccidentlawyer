@@ -1,7 +1,7 @@
 'use client'
 
 import React, { useState } from 'react'
-import { episode as staticEpisode, siteConfig } from '@/data/siteData'
+import { episode as staticEpisode, episodes as episodesData, siteConfig } from '@/data/siteData'
 import type { Episode } from '@/lib/data'
 
 interface EpisodeHeroProps {
@@ -11,7 +11,8 @@ interface EpisodeHeroProps {
 const EpisodeHero = ({ episode: propEpisode }: EpisodeHeroProps) => {
   const ep = propEpisode ?? staticEpisode
   const [descExpanded, setDescExpanded] = useState(false)
-  const episodeImage = (ep as { logo?: string }).logo || '/episode-art.avif'
+  const fallbackArt = episodesData.find((e) => (e as { logo?: string }).logo && (e as { logo?: string }).logo!.trim() !== '')?.logo
+  const episodeImage = (ep as { logo?: string }).logo || fallbackArt
   const platformLinks = [
     { href: siteConfig.platformLinks.apple, label: 'Apple Podcast', eyebrow: 'Available on', kind: 'apple' },
     { href: siteConfig.platformLinks.spotify, label: 'Spotify', eyebrow: 'Available on', kind: 'spotify' },
