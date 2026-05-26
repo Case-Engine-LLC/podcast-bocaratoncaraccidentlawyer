@@ -11,7 +11,7 @@ interface EpisodeHeroProps {
 const EpisodeHero = ({ episode: propEpisode }: EpisodeHeroProps) => {
   const ep = propEpisode ?? staticEpisode
   const [descExpanded, setDescExpanded] = useState(false)
-  const fallbackArt = episodesData.find((e) => (e as { logo?: string }).logo && (e as { logo?: string }).logo!.trim() !== '')?.logo
+  const fallbackArt = (episodesData.find((e) => (e as { logo?: string }).logo && (e as { logo?: string }).logo!.trim() !== '')?.logo as string | undefined) || '/episode-fallback.jpg'
   const episodeImage = (ep as { logo?: string }).logo || fallbackArt
   const platformLinks = [
     { href: siteConfig.platformLinks.apple, label: 'Apple Podcast', eyebrow: 'Available on', kind: 'apple' },

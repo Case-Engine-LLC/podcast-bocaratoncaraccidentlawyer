@@ -6,6 +6,10 @@ import { episodes as staticEpisodes, siteConfig } from '@/data/siteData'
 // so the build still has a wired feed if the env var is not set.
 const RSS_URL = process.env.PODCAST_RSS_URL || (siteConfig as { rssFeedUrl?: string })?.rssFeedUrl || undefined
 
+// Local fallback cover so episode art never renders blank when the RSS feed
+// is unreachable at build time or an episode has no itunes:image.
+export const EPISODE_ART_FALLBACK = '/episode-fallback.jpg'
+
 export function slugifyEpisode(title: string, fallback: string = 'episode'): string {
   if (!title) return fallback
   const s = title.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-+|-+$/g, '')
@@ -58,7 +62,7 @@ function rssEpisodeToEpisode(ep: RSSEpisode): Episode {
     topic: (staticEpisode?.topic as string) || ep.topic,
     concepts: staticConcepts.length > 0 ? staticConcepts : ep.concepts,
     chapters: staticChapters.length > 0 ? staticChapters : ep.chapters,
-    logo: (staticEpisode?.logo as string) || ep.logo,
+    logo: (staticEpisode?.logo as string) || ep.logo || EPISODE_ART_FALLBACK,
     audioUrl: ep.audioUrl || undefined,
     audioType: ep.audioType || undefined,
     transcriptUrl: ep.transcriptUrl,
@@ -81,7 +85,7 @@ function normalizeStaticEpisode(ep: Record<string, unknown>): Episode {
     topic: (ep.topic as string) ?? '',
     concepts: (ep.concepts as string[]) ?? [],
     chapters: (ep.chapters as string[]) ?? [],
-    logo: (ep.logo as string) ?? '',
+    logo: (ep.logo as string) || EPISODE_ART_FALLBACK,
     audioUrl: (ep.audioUrl as string) ?? undefined,
     audioType: (ep.audioType as string) ?? undefined,
     transcriptUrl: (ep.transcriptUrl as string) ?? null,

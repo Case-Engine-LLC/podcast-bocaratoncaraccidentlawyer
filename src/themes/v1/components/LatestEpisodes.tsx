@@ -23,7 +23,7 @@ function toSentenceBoundary(text: string, maxChars = 360): string {
 
 const LatestEpisodes = ({ episodes: propEpisodes }: LatestEpisodesProps) => {
   const episodesData = propEpisodes ?? staticEpisodesData
-  const fallbackArt = episodesData.find((e) => (e as { logo?: string }).logo && (e as { logo?: string }).logo!.trim() !== '')?.logo as string | undefined
+  const fallbackArt = (episodesData.find((e) => (e as { logo?: string }).logo && (e as { logo?: string }).logo!.trim() !== '')?.logo as string | undefined) || '/episode-fallback.jpg'
   const [activeTopic, setActiveTopic] = useState('All')
   const [viewMode, setViewMode] = useState<'list' | 'grid'>('list')
   const [showAll, setShowAll] = useState(false)

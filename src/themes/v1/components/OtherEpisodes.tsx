@@ -13,7 +13,7 @@ interface OtherEpisodesProps {
 
 const OtherEpisodes = ({ episodes: propEpisodes }: OtherEpisodesProps) => {
   const episodesData = propEpisodes ?? staticEpisodesData
-  const fallbackArt = episodesData.find((e) => (e as { logo?: string }).logo && (e as { logo?: string }).logo!.trim() !== '')?.logo as string | undefined
+  const fallbackArt = (episodesData.find((e) => (e as { logo?: string }).logo && (e as { logo?: string }).logo!.trim() !== '')?.logo as string | undefined) || '/episode-fallback.jpg'
   const [currentIndex, setCurrentIndex] = useState(0)
 
   const realEpisodes = [...episodesData]
