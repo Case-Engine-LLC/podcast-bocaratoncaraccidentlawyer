@@ -25,7 +25,7 @@ const Hero = ({ latestEpisode }: HeroProps) => {
 
   return (
     <>
-    <section className="hero-section relative pt-[5rem] md:pt-[6rem] pb-12 md:pb-0 md:h-[90vh] flex flex-col overflow-hidden">
+    <section className="hero-section relative pt-[5rem] md:pt-[6rem] pb-12 md:pb-24 md:min-h-[90vh] overflow-hidden">
       {/* Hero Background Image - indexable - Desktop */}
       <figure className="hidden md:block absolute inset-0 z-0 m-0">
         <img
@@ -66,7 +66,7 @@ const Hero = ({ latestEpisode }: HeroProps) => {
       </div>
 
       {/* Hero Content */}
-      <div className="relative z-[2] max-w-container w-full mx-auto px-4 md:px-12 pt-6 md:pt-12 pb-0 md:pb-12 flex-1 flex flex-col md:justify-end">
+      <div className="relative z-[2] max-w-container mx-auto px-4 md:px-12 pt-6 md:pt-12 pb-0 md:pb-12">
         {/* Text Content */}
         <div className="md:w-[55%] pb-6 md:pb-16 text-center md:text-left">
           {/* Heading */}
