@@ -29,7 +29,7 @@ const AuthorBox = () => {
           {/* Author Image */}
           <div className="order-1 md:order-2">
             <div className="aspect-[454/526] bg-[#c9c9c9] rounded-[20px] relative overflow-hidden">
-               <img src={attorney.photo} alt={attorney.name} className="w-full h-full object-cover" />
+               <img src={attorney.photo} alt={attorney.name} className="w-full h-full object-cover object-top" />
             </div>
           </div>
         </div>

@@ -24,7 +24,7 @@ const ChapterSection = () => {
           {/* Chapter Image/Graphics */}
           <div className="relative">
             <div className="aspect-square bg-[#c9c9c9] rounded-[20px] flex items-center justify-center relative overflow-hidden">
-               <img src={attorney.photo} alt={attorney.name} className="w-full h-full object-cover" />
+               <img src={attorney.photo} alt={attorney.name} className="w-full h-full object-cover object-top" />
             </div>
             <div className="absolute -bottom-8 -left-8 w-64 p-6 bg-white shadow-xl rounded-[12px] hidden md:block border border-black/5 animate-in slide-in-from-left-4">
                <p className="text-[14px] leading-[1.4] text-[#151823]">

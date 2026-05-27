@@ -82,11 +82,11 @@ const About = () => {
           </div>
 
           {/* Right Image */}
-          <div className="w-full h-[480px] md:h-[580px] rounded-2xl overflow-hidden">
+          <div className="w-full h-[480px] md:h-[580px] rounded-2xl overflow-hidden bg-secondary">
             <img
-              src="/about-placehoder.jpg"
+              src="/attorney.png"
               alt={about.title}
-              className="w-full h-full object-cover"
+              className="w-full h-full object-cover object-top"
             />
           </div>
         </div>

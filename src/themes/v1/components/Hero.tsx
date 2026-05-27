@@ -25,11 +25,11 @@ const Hero = ({ latestEpisode }: HeroProps) => {
 
   return (
     <>
-    <section className="hero-section relative pt-[8rem] md:pt-[10rem] pb-12 md:pb-0 md:h-[90vh]">
+    <section className="hero-section relative pt-[5rem] md:pt-[6rem] pb-12 md:pb-0 md:h-[90vh] flex flex-col overflow-hidden">
       {/* Hero Background Image - indexable - Desktop */}
       <figure className="hidden md:block absolute inset-0 z-0 m-0">
         <img
-          src="/hero-placeholder.jpg"
+          src="/Hero.jpg"
           alt={content.heroTitle}
           className="w-full h-full object-cover object-[center_right]"
         />
@@ -38,7 +38,7 @@ const Hero = ({ latestEpisode }: HeroProps) => {
       {/* Hero Background Image - Mobile/Tablet */}
       <figure className="md:hidden absolute inset-0 z-0 m-0">
         <img
-          src="/hero-placeholder.jpg"
+          src="/mob-bg.jpg"
           alt={content.heroTitle}
           className="w-full h-full object-cover object-center"
         />
@@ -56,8 +56,17 @@ const Hero = ({ latestEpisode }: HeroProps) => {
         </div>
       </div>
 
+      {/* Attorney Image - absolutely positioned so it doesn't stretch the section */}
+      <div className="hidden md:flex absolute bottom-0 right-0 lg:right-[4%] z-[1] h-[68%] lg:h-[78%] items-end pointer-events-none">
+        <img
+          src="/attorney.png"
+          alt={content.heroTitle}
+          className="h-full w-auto object-contain object-bottom block"
+        />
+      </div>
+
       {/* Hero Content */}
-      <div className="relative z-[1] max-w-container mx-auto px-4 md:px-12 pt-6 md:pt-12 pb-0 md:pb-12">
+      <div className="relative z-[2] max-w-container w-full mx-auto px-4 md:px-12 pt-6 md:pt-12 pb-0 md:pb-12 flex-1 flex flex-col md:justify-end">
         {/* Text Content */}
         <div className="md:w-[55%] pb-6 md:pb-16 text-center md:text-left">
           {/* Heading */}
