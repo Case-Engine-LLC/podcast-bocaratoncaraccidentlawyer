@@ -1,5 +1,6 @@
 import V1EpisodePage from '@/themes/v1/pages/V1EpisodePage'
 import { getAllEpisodes, getEpisodeByIdOrSlug, getEpisodeTranscript } from '@/lib/data'
+import { notFound } from 'next/navigation'
 
 export const revalidate = 3600
 
@@ -16,7 +17,9 @@ export default async function Page({ params }: { params: Promise<{ id: string }>
   const { id } = await params
   const allEpisodes = await getAllEpisodes()
   const episode = await getEpisodeByIdOrSlug(id)
-  const transcript = episode ? await getEpisodeTranscript(episode) : []
+  if (!episode) notFound()
+
+  const transcript = await getEpisodeTranscript(episode)
 
   return (
     <V1EpisodePage
