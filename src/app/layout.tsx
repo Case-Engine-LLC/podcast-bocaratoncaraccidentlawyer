@@ -15,9 +15,10 @@ const inter = Inter({
 const SITE_URL =
   siteConfig.podcastUrl || contact.website || 'https://thegrifelawfirm.com'
 
-// Meta/SEO title — brand name with "Podcast" appended (visible on-page
-// headings use siteConfig.podcastName directly and are unaffected).
-const META_TITLE = `${siteConfig.podcastName} Podcast`
+// Meta/SEO title — "Podcast" inserted before the host (e.g. "Boca Raton
+// Injury Law Podcast with Michael Grife"). Visible on-page headings use
+// siteConfig.podcastName directly and are unaffected.
+const META_TITLE = siteConfig.podcastName.replace(' with ', ' Podcast with ')
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
