@@ -15,14 +15,18 @@ const inter = Inter({
 const SITE_URL =
   siteConfig.podcastUrl || contact.website || 'https://thegrifelawfirm.com'
 
+// Meta/SEO title — brand name with "Podcast" appended (visible on-page
+// headings use siteConfig.podcastName directly and are unaffected).
+const META_TITLE = `${siteConfig.podcastName} Podcast`
+
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
   title: {
-    default: siteConfig.podcastName,
-    template: `%s | ${siteConfig.podcastName}`,
+    default: META_TITLE,
+    template: `%s | ${META_TITLE}`,
   },
   description: about.description,
-  applicationName: siteConfig.podcastName,
+  applicationName: META_TITLE,
   authors: [{ name: attorney.name, url: contact.website || SITE_URL }],
   keywords: [
     attorney.firm,
@@ -53,8 +57,8 @@ export const metadata: Metadata = {
   },
   openGraph: {
     type: 'website',
-    siteName: siteConfig.podcastName,
-    title: siteConfig.podcastName,
+    siteName: META_TITLE,
+    title: META_TITLE,
     description: about.description,
     url: SITE_URL,
     locale: 'en_US',
@@ -63,13 +67,13 @@ export const metadata: Metadata = {
         url: '/opengraph-image',
         width: 1200,
         height: 630,
-        alt: `${siteConfig.podcastName} — ${attorney.name}, ${attorney.title} at ${attorney.firm}`,
+        alt: `${META_TITLE} — ${attorney.name}, ${attorney.title} at ${attorney.firm}`,
       },
     ],
   },
   twitter: {
     card: 'summary_large_image',
-    title: siteConfig.podcastName,
+    title: META_TITLE,
     description: about.description,
     images: ['/opengraph-image'],
   },

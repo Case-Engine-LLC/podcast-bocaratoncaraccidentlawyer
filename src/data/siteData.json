@@ -429,17 +429,22 @@
         "href": "#episodes"
       },
       {
+        "name": "The Grife Law Firm",
+        "href": "https://thegrifelawfirm.com/",
+        "external": true
+      },
+      {
         "name": "About",
         "href": "#about"
       },
       {
-        "name": "Contact",
-        "href": "https://thegrifelawfirm.com/contact-us/",
+        "name": "Meet Michael Grife",
+        "href": "https://www.michaelgrife.attorney/",
         "external": true
       }
     ],
-    "ctaText": "Subscribe",
-    "ctaHref": "#subscribe"
+    "ctaText": "Contact",
+    "ctaHref": "https://thegrifelawfirm.com/contact-us/"
   },
   "podcastTeam": [
     {
@@ -504,7 +509,7 @@
       "initials": "GS",
       "role": "Verified Client",
       "rating": 5,
-      "text": "Another automobile hit my husband and me, on March 13, 2014. Our Lincoln SUV was T-boned and flipped on its side rolling twice and ending on the roof, totaled. My husband and I both had to be cut out of the car. Test results indicated that we had many serious injuries! I have eight herniated and bulging discs (pressing against my spinal cord) in my neck and back. Severe enough, that it has altered my way of life forever. My husband, who was hanging by his left arm upside down, now needs shoulder replacement, also receiving 5 damaged disks! I called Michael Grife, whom I had met in 2011. I cannot say enough about Michael, he not only took over all of the extremely stressful contact with insurance companies and doctors, he directed me and my husband to very good doctors. He has been so supportive throughout our entire ordeal. He has been more like family than an attorney. He just settled our case and we received the maximum settlement. He made what was an unbearable situation much easier to go through."
+      "text": "Our SUV was T-boned and totaled, and my husband and I both suffered serious injuries. I called Michael Grife, and I cannot say enough about him. He took over all of the extremely stressful contact with the insurance companies and doctors, and directed us to very good doctors. He has been so supportive throughout our entire ordeal — more like family than an attorney. He settled our case and we received the maximum settlement, making an unbearable situation much easier to go through."
     },
     {
       "id": 2,
@@ -544,7 +549,7 @@
       "initials": "M",
       "role": "Verified Client",
       "rating": 5,
-      "text": "Dear Michael, Gene and I wish to thank you for all you have done for us. The personal attention given to each and every situation you have handled for us is way beyond what we expected when we first met you. You feel to us like more a friend than an attorney. You handled my slip and fall back in 2011 with complete professionalism, staying in touch with us as if this was your biggest case. We know it was small potatoes compared to many of the cases you were handling at that time. Then in 2013 when our family was served glass in our banana split at Disney World you were there for us again. We weren't sure you would even consider this case. Yet again you were there for us with friendship and professional demeanor that was outstanding."
+      "text": "Michael, we wish to thank you for all you have done for us. The personal attention given to every situation you handled for us is way beyond what we expected — you feel like more a friend than an attorney. You handled my slip and fall with complete professionalism, staying in touch as if it was your biggest case, even though it was small compared to the cases you were handling at the time. Yet again you were there for us with friendship and a professional demeanor that was outstanding."
     }
   ],
   "topicalEntryGrid": {
