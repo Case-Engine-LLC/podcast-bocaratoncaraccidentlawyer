@@ -20,13 +20,13 @@ const StatsBanner = () => {
           </div>
 
           {/* Card 2: Satisfaction */}
-          <div className="bg-primary rounded-3xl px-6 py-8 md:px-5 md:py-10 text-left">
+          <div className="bg-secondary rounded-3xl px-6 py-8 md:px-5 md:py-10 text-left">
             <div className="flex items-center justify-between mb-4 md:mb-6">
-              <span className="text-secondary text-4xl md:text-6xl font-bold">{stats.satisfactionRate}%</span>
-              <ThumbsUp size={56} className="text-secondary" fill="currentColor" />
+              <span className="text-white text-4xl md:text-6xl font-bold">{stats.satisfactionRate}%</span>
+              <ThumbsUp size={56} className="text-white" fill="currentColor" />
             </div>
             <p className="text-white text-xl md:text-2xl font-bold mb-3">{stats.satisfactionLabel}</p>
-            <p className="text-white/80 text-sm md:text-base leading-relaxed">{stats.satisfactionVerbalization}</p>
+            <p className="text-white/85 text-sm md:text-base leading-relaxed">{stats.satisfactionVerbalization}</p>
           </div>
 
           {/* Card 3: Cases */}
