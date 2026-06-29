@@ -27,7 +27,7 @@ const PodcastSubscribeCTA = () => {
               {/* Left Side - Subject Cutout */}
               <div className="relative md:col-span-2 md:absolute md:left-0 md:bottom-0 md:w-2/5 flex justify-center md:justify-start order-2 md:order-1">
                 <img
-                  src="/attorney.png"
+                  src="/cta-new.png"
                   alt="Attorneys"
                   className="w-full max-w-[450px] md:max-w-[420px] h-auto object-contain"
                 />

@@ -166,7 +166,7 @@ const PodcastTeam = () => {
               <img
                 src={member.image}
                 alt={member.name}
-                className="w-full h-auto object-contain"
+                className="w-full aspect-[4/5] object-cover object-top rounded-2xl"
               />
 
               {/* Card */}
