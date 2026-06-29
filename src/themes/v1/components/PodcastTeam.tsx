@@ -75,7 +75,7 @@ const PodcastTeam = () => {
               key={currentSlide}
               src={teamMembers[currentSlide].image}
               alt={teamMembers[currentSlide].name}
-              className="w-full h-auto object-contain"
+              className={`w-full aspect-[4/5] object-cover object-bottom rounded-2xl ${teamMembers[currentSlide].slug === 'michael-grife' ? 'scale-[1.1] origin-bottom' : ''}`}
               style={{
                 animation: direction === 'right'
                   ? 'slideInRight 0.5s ease-out'
@@ -162,11 +162,11 @@ const PodcastTeam = () => {
         {/* Desktop Grid */}
         <div className="hidden md:grid grid-cols-2 gap-6">
           {teamMembers.map((member, index) => (
-            <div key={index} className="w-full flex justify-center items-end relative">
+            <div key={index} className="w-full flex justify-center items-end relative overflow-hidden rounded-2xl">
               <img
                 src={member.image}
                 alt={member.name}
-                className="w-full aspect-[4/5] object-cover object-top rounded-2xl"
+                className={`w-full aspect-[4/5] object-cover object-bottom ${member.slug === 'michael-grife' ? 'scale-[1.1] origin-bottom' : ''}`}
               />
 
               {/* Card */}

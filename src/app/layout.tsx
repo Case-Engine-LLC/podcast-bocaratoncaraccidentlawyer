@@ -103,7 +103,7 @@ export default function RootLayout({
       <head>
         <SchemaJsonLd />
       </head>
-      <body className={`${inter.variable} font-sans antialiased`}>
+      <body className={`${inter.variable} font-sans antialiased`} suppressHydrationWarning>
         {children}
         <MarkerWidget />
       </body>
