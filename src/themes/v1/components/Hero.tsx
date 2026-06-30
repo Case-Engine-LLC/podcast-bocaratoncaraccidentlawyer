@@ -22,6 +22,7 @@ const Hero = ({ latestEpisode }: HeroProps) => {
   const showApple = isRealLink(appleHref)
   const showSpotify = isRealLink(spotifyHref)
   const showSubscribeRow = showApple || showSpotify
+  const [titleLead, titleTail] = content.heroTitle.split(' with ')
 
   return (
     <>
@@ -73,12 +74,19 @@ const Hero = ({ latestEpisode }: HeroProps) => {
         {/* Text Content */}
         <div className="min-w-0 w-full max-w-full md:w-[55%] pb-6 md:pb-16 text-center md:text-left">
           {/* Heading */}
-          <h1 className="mx-auto md:mx-0 max-w-[20rem] md:max-w-none break-words text-2xl sm:text-3xl leading-tight md:text-5xl font-bold md:leading-tighter text-white mb-3 md:mb-4">
-            {content.heroTitle}
+          <h1 className="mx-auto md:mx-0 max-w-[18rem] sm:max-w-[22rem] md:max-w-none break-words text-2xl sm:text-3xl leading-tight md:text-5xl font-bold md:leading-tighter text-white mb-3 md:mb-4">
+            {titleTail ? (
+              <>
+                <span className="block">{titleLead}</span>
+                <span className="block">with {titleTail}</span>
+              </>
+            ) : (
+              content.heroTitle
+            )}
           </h1>
 
           {/* Description */}
-          <p className="podcast-description max-w-full md:max-w-xl break-words text-sm md:text-lg text-white/80 leading-relaxed mb-5 md:mb-8 mx-auto md:mx-0">
+          <p className="podcast-description max-w-[19rem] sm:max-w-[22rem] md:max-w-xl break-words text-sm md:text-lg text-white/80 leading-relaxed mb-5 md:mb-8 mx-auto md:mx-0">
             {content.heroDescription}
           </p>
 
