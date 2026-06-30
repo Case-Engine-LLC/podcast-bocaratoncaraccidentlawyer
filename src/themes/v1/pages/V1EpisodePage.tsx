@@ -14,12 +14,12 @@ const episodeSchema = {
   "@graph": [
     {
       "@type": "WebPage",
-      "@id": "https://podcast-bocaratoncaraccidentlawyer.vercel.app/episode/1#webpage",
-      "url": "https://podcast-bocaratoncaraccidentlawyer.vercel.app/episode/1",
+      "@id": "https://www.bocaratoninjury.lawyer/episode/1#webpage",
+      "url": "https://www.bocaratoninjury.lawyer/episode/1",
       "name": "The YOU Interview with Michael Grife | Episode 1 | Boca Raton Injury Law w. Mike Grife",
       "description": "Michael K. Grife shares his path into trial law, how The Grife Law Firm evaluates Florida personal injury and medical malpractice cases, and what insurance companies expect from unrepresented claimants.",
       "isPartOf": {
-        "@id": "https://podcast-bocaratoncaraccidentlawyer.vercel.app/#website"
+        "@id": "https://www.bocaratoninjury.lawyer/#website"
       },
       "inLanguage": "en-US",
       "speakable": {
@@ -38,37 +38,37 @@ const episodeSchema = {
             "@type": "ListItem",
             "position": 1,
             "name": "Home",
-            "item": "https://podcast-bocaratoncaraccidentlawyer.vercel.app/"
+            "item": "https://www.bocaratoninjury.lawyer/"
           },
           {
             "@type": "ListItem",
             "position": 2,
             "name": "Episodes",
-            "item": "https://podcast-bocaratoncaraccidentlawyer.vercel.app/#episodes"
+            "item": "https://www.bocaratoninjury.lawyer/#episodes"
           },
           {
             "@type": "ListItem",
             "position": 3,
             "name": "The YOU Interview with Michael Grife",
-            "item": "https://podcast-bocaratoncaraccidentlawyer.vercel.app/episode/1"
+            "item": "https://www.bocaratoninjury.lawyer/episode/1"
           }
         ]
       }
     },
     {
       "@type": "PodcastEpisode",
-      "@id": "https://podcast-bocaratoncaraccidentlawyer.vercel.app/episode/1#episode",
+      "@id": "https://www.bocaratoninjury.lawyer/episode/1#episode",
       "name": "The YOU Interview with Michael Grife",
       "description": "In this debut episode of Boca Raton Injury Law, founding attorney Michael Grife sits down with co-host Abby for an unfiltered conversation about his life, his law practice, and the values that drive The Grife Law Firm. Michael shares his Brooklyn origin story, how a friend's Fort Lauderdale invite led him to Nova Southeastern University School of Law, why he built a practice around catastrophic injury and medical malpractice, how the firm's contingency fee structure actually works, and why Florida needs mandatory bodily injury insurance.",
       "episodeNumber": 1,
-      "url": "https://podcast-bocaratoncaraccidentlawyer.vercel.app/episode/1",
-      "image": "https://podcast-bocaratoncaraccidentlawyer.vercel.app/cover.jpg",
+      "url": "https://www.bocaratoninjury.lawyer/episode/1",
+      "image": "https://www.bocaratoninjury.lawyer/cover.jpg",
       "duration": "PT1H21M0S",
       "partOfSeries": {
-        "@id": "https://podcast-bocaratoncaraccidentlawyer.vercel.app/#podcast"
+        "@id": "https://www.bocaratoninjury.lawyer/#podcast"
       },
       "author": {
-        "@id": "https://podcast-bocaratoncaraccidentlawyer.vercel.app/#host"
+        "@id": "https://www.bocaratoninjury.lawyer/#host"
       },
       "publisher": {
         "@id": "https://thegrifelawfirm.com/#org"
@@ -90,7 +90,7 @@ const episodeSchema = {
     },
     {
       "@type": "FAQPage",
-      "@id": "https://podcast-bocaratoncaraccidentlawyer.vercel.app/episode/1#faq",
+      "@id": "https://www.bocaratoninjury.lawyer/episode/1#faq",
       "mainEntity": [
         {
           "@type": "Question",

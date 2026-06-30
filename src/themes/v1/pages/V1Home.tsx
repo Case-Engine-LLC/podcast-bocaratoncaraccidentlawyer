@@ -27,13 +27,13 @@ const homeSchema = {
       "url": "https://thegrifelawfirm.com/",
       "logo": {
         "@type": "ImageObject",
-        "url": "https://podcast-bocaratoncaraccidentlawyer.vercel.app/logo.svg",
+        "url": "https://www.bocaratoninjury.lawyer/logo.svg",
         "width": 200,
         "height": 60
       },
       "image": {
         "@type": "ImageObject",
-        "url": "https://podcast-bocaratoncaraccidentlawyer.vercel.app/Hero.jpg",
+        "url": "https://www.bocaratoninjury.lawyer/Hero.jpg",
         "width": 1200,
         "height": 630
       },
@@ -71,8 +71,8 @@ const homeSchema = {
     },
     {
       "@type": "WebSite",
-      "@id": "https://podcast-bocaratoncaraccidentlawyer.vercel.app/#website",
-      "url": "https://podcast-bocaratoncaraccidentlawyer.vercel.app/",
+      "@id": "https://www.bocaratoninjury.lawyer/#website",
+      "url": "https://www.bocaratoninjury.lawyer/",
       "name": "Boca Raton Injury Law w. Mike Grife",
       "description": "A podcast by Michael K. Grife of The Grife Law Firm helping Florida accident victims and families understand personal injury, medical malpractice, and nursing home claims.",
       "publisher": {
@@ -83,19 +83,19 @@ const homeSchema = {
         "@type": "SearchAction",
         "target": {
           "@type": "EntryPoint",
-          "urlTemplate": "https://podcast-bocaratoncaraccidentlawyer.vercel.app/?s={search_term_string}"
+          "urlTemplate": "https://www.bocaratoninjury.lawyer/?s={search_term_string}"
         },
         "query-input": "required name=search_term_string"
       }
     },
     {
       "@type": "WebPage",
-      "@id": "https://podcast-bocaratoncaraccidentlawyer.vercel.app/#webpage",
-      "url": "https://podcast-bocaratoncaraccidentlawyer.vercel.app/",
+      "@id": "https://www.bocaratoninjury.lawyer/#webpage",
+      "url": "https://www.bocaratoninjury.lawyer/",
       "name": "Boca Raton Injury Law w. Mike Grife | The Grife Law Firm",
       "description": "Michael K. Grife covers Florida personal injury, medical malpractice, and nursing home neglect — PIP, negligent security, and when a case has to be tried.",
       "isPartOf": {
-        "@id": "https://podcast-bocaratoncaraccidentlawyer.vercel.app/#website"
+        "@id": "https://www.bocaratoninjury.lawyer/#website"
       },
       "about": {
         "@id": "https://thegrifelawfirm.com/#org"
@@ -117,26 +117,26 @@ const homeSchema = {
             "@type": "ListItem",
             "position": 1,
             "name": "Home",
-            "item": "https://podcast-bocaratoncaraccidentlawyer.vercel.app/"
+            "item": "https://www.bocaratoninjury.lawyer/"
           }
         ]
       }
     },
     {
       "@type": "PodcastSeries",
-      "@id": "https://podcast-bocaratoncaraccidentlawyer.vercel.app/#podcast",
+      "@id": "https://www.bocaratoninjury.lawyer/#podcast",
       "name": "Boca Raton Injury Law w. Mike Grife",
       "description": "Boca Raton Injury Law with Michael K. Grife covers Florida personal injury, medical malpractice, nursing home neglect, and premises liability — including how Florida's PIP threshold works, what happens when a case has to go to trial, and what insurance companies don't want injured Floridians to know.",
-      "url": "https://podcast-bocaratoncaraccidentlawyer.vercel.app/",
-      "image": "https://podcast-bocaratoncaraccidentlawyer.vercel.app/Hero.jpg",
+      "url": "https://www.bocaratoninjury.lawyer/",
+      "image": "https://www.bocaratoninjury.lawyer/Hero.jpg",
       "author": {
         "@type": "Person",
-        "@id": "https://podcast-bocaratoncaraccidentlawyer.vercel.app/#host",
+        "@id": "https://www.bocaratoninjury.lawyer/#host",
         "name": "Michael K. Grife",
         "givenName": "Michael",
         "familyName": "K. Grife",
         "jobTitle": "Founder & Personal Injury Attorney",
-        "image": "https://podcast-bocaratoncaraccidentlawyer.vercel.app/headshot-michael-grife.png",
+        "image": "https://www.bocaratoninjury.lawyer/headshot-michael-grife.png",
         "worksFor": {
           "@id": "https://thegrifelawfirm.com/#org"
         },
@@ -161,7 +161,7 @@ const homeSchema = {
     },
     {
       "@type": "FAQPage",
-      "@id": "https://podcast-bocaratoncaraccidentlawyer.vercel.app/#faq",
+      "@id": "https://www.bocaratoninjury.lawyer/#faq",
       "mainEntity": [
         {
           "@type": "Question",
