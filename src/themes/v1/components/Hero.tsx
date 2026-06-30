@@ -71,19 +71,19 @@ const Hero = ({ latestEpisode }: HeroProps) => {
       {/* Hero Content */}
       <div className="relative z-[2] max-w-container mx-auto px-4 md:px-12 pt-6 md:pt-12 pb-0 md:pb-12">
         {/* Text Content */}
-        <div className="md:w-[55%] pb-6 md:pb-16 text-center md:text-left">
+        <div className="min-w-0 w-full max-w-full md:w-[55%] pb-6 md:pb-16 text-center md:text-left">
           {/* Heading */}
-          <h1 className="mx-auto md:mx-0 max-w-[22rem] md:max-w-none break-words text-3xl leading-tight md:text-5xl font-bold md:leading-tighter text-white mb-3 md:mb-4">
+          <h1 className="mx-auto md:mx-0 max-w-[20rem] md:max-w-none break-words text-2xl sm:text-3xl leading-tight md:text-5xl font-bold md:leading-tighter text-white mb-3 md:mb-4">
             {content.heroTitle}
           </h1>
 
           {/* Description */}
-          <p className="podcast-description text-sm md:text-lg text-white/80 leading-relaxed mb-5 md:mb-8 max-w-xl mx-auto md:mx-0">
+          <p className="podcast-description max-w-full md:max-w-xl break-words text-sm md:text-lg text-white/80 leading-relaxed mb-5 md:mb-8 mx-auto md:mx-0">
             {content.heroDescription}
           </p>
 
           {/* Available On Buttons */}
-          <div id="listen" className="flex flex-row flex-wrap gap-2 md:gap-4 items-center justify-center md:justify-start scroll-mt-24">
+          <div id="listen" className="flex flex-col sm:flex-row gap-2 md:gap-4 items-center justify-center md:justify-start scroll-mt-24">
             {showApple && (
             <a
               href={appleHref}
