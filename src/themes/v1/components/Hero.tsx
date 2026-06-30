@@ -73,7 +73,7 @@ const Hero = ({ latestEpisode }: HeroProps) => {
         {/* Text Content */}
         <div className="md:w-[55%] pb-6 md:pb-16 text-center md:text-left">
           {/* Heading */}
-          <h1 className="text-[2.25rem] leading-[1.2] md:text-5xl font-bold md:leading-tighter text-white mb-3 md:mb-4">
+          <h1 className="mx-auto md:mx-0 max-w-[22rem] md:max-w-none break-words text-3xl leading-tight md:text-5xl font-bold md:leading-tighter text-white mb-3 md:mb-4">
             {content.heroTitle}
           </h1>
 
@@ -83,7 +83,7 @@ const Hero = ({ latestEpisode }: HeroProps) => {
           </p>
 
           {/* Available On Buttons */}
-          <div id="listen" className="flex flex-row gap-2 md:gap-4 items-center justify-center md:justify-start scroll-mt-24">
+          <div id="listen" className="flex flex-row flex-wrap gap-2 md:gap-4 items-center justify-center md:justify-start scroll-mt-24">
             {showApple && (
             <a
               href={appleHref}
@@ -95,7 +95,7 @@ const Hero = ({ latestEpisode }: HeroProps) => {
               <img
                 src="/badges/listen-on-apple-podcasts.svg"
                 alt="Listen on Apple Podcasts"
-                className="h-10 md:h-12 w-auto"
+                className="h-9 md:h-12 w-auto max-w-[10rem] md:max-w-none"
               />
             </a>
             )}
@@ -111,7 +111,7 @@ const Hero = ({ latestEpisode }: HeroProps) => {
               <img
                 src="/badges/listen-on-spotify.svg"
                 alt="Listen on Spotify"
-                className="h-10 md:h-12 w-auto"
+                className="h-9 md:h-12 w-auto max-w-[10rem] md:max-w-none"
               />
             </a>
             )}
