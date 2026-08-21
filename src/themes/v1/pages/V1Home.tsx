@@ -69,25 +69,7 @@ const homeSchema = {
         "ratingCount": "200"
       }
     },
-    {
-      "@type": "WebSite",
-      "@id": "https://www.bocaratoninjury.lawyer/#website",
-      "url": "https://www.bocaratoninjury.lawyer/",
-      "name": "Boca Raton Injury Law w. Mike Grife",
-      "description": "A podcast by Michael K. Grife of The Grife Law Firm helping Florida accident victims and families understand personal injury, medical malpractice, and nursing home claims.",
-      "publisher": {
-        "@id": "https://thegrifelawfirm.com/#org"
-      },
-      "inLanguage": "en-US",
-      "potentialAction": {
-        "@type": "SearchAction",
-        "target": {
-          "@type": "EntryPoint",
-          "urlTemplate": "https://www.bocaratoninjury.lawyer/?s={search_term_string}"
-        },
-        "query-input": "required name=search_term_string"
-      }
-    },
+    
     {
       "@type": "WebPage",
       "@id": "https://www.bocaratoninjury.lawyer/#webpage",
@@ -122,43 +104,7 @@ const homeSchema = {
         ]
       }
     },
-    {
-      "@type": "PodcastSeries",
-      "@id": "https://www.bocaratoninjury.lawyer/#podcast",
-      "name": "Boca Raton Injury Law w. Mike Grife",
-      "description": "Boca Raton Injury Law with Michael K. Grife covers Florida personal injury, medical malpractice, nursing home neglect, and premises liability — including how Florida's PIP threshold works, what happens when a case has to go to trial, and what insurance companies don't want injured Floridians to know.",
-      "url": "https://www.bocaratoninjury.lawyer/",
-      "image": "https://www.bocaratoninjury.lawyer/Hero.jpg",
-      "author": {
-        "@type": "Person",
-        "@id": "https://www.bocaratoninjury.lawyer/#host",
-        "name": "Michael K. Grife",
-        "givenName": "Michael",
-        "familyName": "K. Grife",
-        "jobTitle": "Founder & Personal Injury Attorney",
-        "image": "https://www.bocaratoninjury.lawyer/headshot-michael-grife.png",
-        "worksFor": {
-          "@id": "https://thegrifelawfirm.com/#org"
-        },
-        "sameAs": [
-          "https://thegrifelawfirm.com/"
-        ],
-        "alumniOf": {
-          "@type": "EducationalOrganization",
-          "name": "Nova Southeastern University Shepard Broad College of Law"
-        }
-      },
-      "webFeed": [],
-      "genre": [
-        "Legal",
-        "Personal Injury Law",
-        "Education"
-      ],
-      "inLanguage": "en-US",
-      "publisher": {
-        "@id": "https://thegrifelawfirm.com/#org"
-      }
-    },
+    
     {
       "@type": "FAQPage",
       "@id": "https://www.bocaratoninjury.lawyer/#faq",
